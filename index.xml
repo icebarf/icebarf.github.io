@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>sysgrammer</title>
+    <link>https://sysgrammer.github.io/</link>
+    <description>Recent content on sysgrammer</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Sat, 22 May 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://sysgrammer.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>A Fresh Look on my website</title>
+      <link>https://sysgrammer.github.io/posts/fresh_look/</link>
+      <pubDate>Sat, 22 May 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://sysgrammer.github.io/posts/fresh_look/</guid>
+      <description>While talking to a good friend of mine, He recommended me a static site generator called Hugo. It is a quite a powerful tool and has many themes and support for templates from other web programming languages/markup languages. I won&amp;rsquo;t go into much detail now but it is how it is. Anyways, we both found this cool theme that we&amp;rsquo;re using right now and it is called hugo.386. It took me about 2-3 Hours to configure everything right along with some trial and error on some areas and now we&amp;rsquo;re here.</description>
+    </item>
+    
+    <item>
+      <title>About</title>
+      <link>https://sysgrammer.github.io/about/</link>
+      <pubDate>Sat, 22 May 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://sysgrammer.github.io/about/</guid>
+      <description>I write about what I&amp;rsquo;ve learnt and document it.</description>
+    </item>
+    
+    <item>
+      <title>Hello, World!</title>
+      <link>https://sysgrammer.github.io/posts/intro/</link>
+      <pubDate>Sat, 22 May 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://sysgrammer.github.io/posts/intro/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Daily Updates</title>
+      <link>https://sysgrammer.github.io/news/may21_2021/</link>
+      <pubDate>Fri, 21 May 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://sysgrammer.github.io/news/may21_2021/</guid>
+      <description>Re-started reading Beej&amp;rsquo;s Guide to Network Programming Added token exception handling to bot  Okay Now I&amp;rsquo;ve talked about what I&amp;rsquo;ve been doing and will do, I&amp;rsquo;m thinking that mall0cd&amp;rsquo;s library might need a re write due to an issue caused by libjansson.h. I planned on helping him continue his work but after some debugging with my bot we realised that library was fundamentally flawed due to the JSON parser as indicated by valgrind.</description>
+    </item>
+    
+    <item>
+      <title>Lispy Documentation</title>
+      <link>https://sysgrammer.github.io/docs/lispy_docs/</link>
+      <pubDate>Tue, 18 May 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://sysgrammer.github.io/docs/lispy_docs/</guid>
+      <description>Introduction This webpage contains the documentation of my lisp implementation which was invented by Daniel Holden. The documentation is divided into sections and the index is available after this introduction. This implementation is very different from all the typical lisps and there are some noticable differences. This guide assumes that you atleast know what Lisps are. However if you don&amp;rsquo;t, I recommend searching about it. It is not completely necessary to understand lisps for you to use Lispy but a little knowledge won&amp;rsquo;t do you any harm.</description>
+    </item>
+    
+  </channel>
+</rss>

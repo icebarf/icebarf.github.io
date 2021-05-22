@@ -6,7 +6,16 @@
     <description>Recent content in News on sysgrammer</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 21 May 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://sysgrammer.github.io/news/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 22 May 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://sysgrammer.github.io/news/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Daily Updates</title>
+      <link>https://sysgrammer.github.io/news/may22_2021/</link>
+      <pubDate>Sat, 22 May 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://sysgrammer.github.io/news/may22_2021/</guid>
+      <description>Learnt Linked Lists (in C ). Need practice Renovated website. We (re-)launched(?)  So&amp;hellip; Yesterday I said I would read Beej&amp;rsquo;s guide and try to finish that in 2-3 days. Well, I didn&amp;rsquo;t even read the guide, I just spent half of my day randomly spending time on Together C &amp;amp; C++ Discord and renovating my website. The took a small afternoon nap. The started learning Data structures, well to be more precise Linked Lists, to be even more precise Singly Linked Lists.</description>
+    </item>
+    
     <item>
       <title>Daily Updates</title>
       <link>https://sysgrammer.github.io/news/may21_2021/</link>

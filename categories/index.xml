@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Categories on sysgrammer</title>
+    <title>Categories on Sysgrammer&#39;s PSA</title>
     <link>https://sysgrammer.github.io/categories/</link>
-    <description>Recent content in Categories on sysgrammer</description>
+    <description>Recent content in Categories on Sysgrammer&#39;s PSA</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en</language>
+    <language>en-us</language>
     <lastBuildDate>Sat, 22 May 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://sysgrammer.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Website Info</title>

@@ -1,12 +1,21 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>sysgrammer</title>
+    <title>Sysgrammer&#39;s Website on Sysgrammer&#39;s PSA</title>
     <link>https://sysgrammer.github.io/</link>
-    <description>Recent content on sysgrammer</description>
+    <description>Recent content in Sysgrammer&#39;s Website on Sysgrammer&#39;s PSA</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en</language>
-    <lastBuildDate>Sat, 22 May 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://sysgrammer.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-us</language>
+    <lastBuildDate>Sun, 23 May 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://sysgrammer.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Daily Updates</title>
+      <link>https://sysgrammer.github.io/news/may23_2021/</link>
+      <pubDate>Sun, 23 May 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://sysgrammer.github.io/news/may23_2021/</guid>
+      <description>Spent day stuyding Didn&amp;rsquo;t program  Realised how much I have to cope with studies. See ya</description>
+    </item>
+    
     <item>
       <title>A Fresh Look on my website</title>
       <link>https://sysgrammer.github.io/posts/fresh_look/</link>
@@ -22,7 +31,11 @@
       <pubDate>Sat, 22 May 2021 00:00:00 +0000</pubDate>
       
       <guid>https://sysgrammer.github.io/about/</guid>
-      <description>I write about what I&amp;rsquo;ve learnt and document it.</description>
+      <description>I like to do systems programming and other stuff. I&amp;rsquo;m interesting in Operating Systems, Reverse Engineering, backends and other lower level stuff (compared to the modern standards).
+I mainly program in C and i know a little python. I plan on learning C++, Rust, Go.
+Contact Email: sysgrammer@protonmail.com
+Github: sysgrammer
+Twitter: @sysgrammer</description>
     </item>
     
     <item>
@@ -32,15 +45,6 @@
       
       <guid>https://sysgrammer.github.io/news/may22_2021/</guid>
       <description>Learnt Linked Lists (in C ). Need practice Renovated website. We (re-)launched(?)  So&amp;hellip; Yesterday I said I would read Beej&amp;rsquo;s guide and try to finish that in 2-3 days. Well, I didn&amp;rsquo;t even read the guide, I just spent half of my day randomly spending time on Together C &amp;amp; C++ Discord and renovating my website. The took a small afternoon nap. The started learning Data structures, well to be more precise Linked Lists, to be even more precise Singly Linked Lists.</description>
-    </item>
-    
-    <item>
-      <title>Hello, World!</title>
-      <link>https://sysgrammer.github.io/posts/intro/</link>
-      <pubDate>Sat, 22 May 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://sysgrammer.github.io/posts/intro/</guid>
-      <description></description>
     </item>
     
     <item>

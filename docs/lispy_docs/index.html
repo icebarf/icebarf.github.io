@@ -1,74 +1,40 @@
 <!DOCTYPE html>
-<html lang="en"><head>
-    <title>sysgrammer</title>
-    <meta content="text/html;charset=utf-8" http-equiv="Content-Type">
-    <meta content="utf-8" http-equiv="encoding">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="format-detection" content="telephone=no" />
-    <meta name="theme-color" content="#000084" />
-    <link rel="icon" href="https://sysgrammer.github.io//favicon.ico">
-    <link rel="canonical" href="https://sysgrammer.github.io/">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/fonts.css">
     
-</head>
-<body>
-<nav class="navbar navbar-inverse navbar-fixed-top">
-    <div class="navbar-inner">
-        <div class="container">
-            <button type="button" class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse"></button>
-            <a class="brand" href="https://sysgrammer.github.io/">sysgrammer</a>
-            <div class="nav-collapse collapse">
-                <ul class="nav">
-                    
-                    
-                        
-                            <li>
-                                <a href="/about/">
-                                    
-                                    <span>About</span>
-                                </a>
-                            </li>
-                        
-                    
-                        
-                            <li>
-                                <a href="/docs/">
-                                    
-                                    <span>Docs</span>
-                                </a>
-                            </li>
-                        
-                    
-                        
-                            <li>
-                                <a href="/news/">
-                                    
-                                    <span>News</span>
-                                </a>
-                            </li>
-                        
-                    
-                        
-                            <li>
-                                <a href="/posts/">
-                                    
-                                    <span>Posts</span>
-                                </a>
-                            </li>
-                        
-                    
-                </ul>
-            </div>
-        </div>
-    </div>
-</nav><div id="content" class="container">
+    <title>Sysgrammer</title>
+    <link rel="icon" type="image/png" href="/assets/img/favicon.ico" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
+        integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+    <script src="/js/dark.js" defer=""></script>
 
-<div class="row-fluid navmargin">
-    <div class="page-header">
-        <h1>Lispy Documentation - Tue, May 18, 2021</h1>
+</head>
+
+
+<html>
+<!DOCTYPE html>
+<html>
+
+<body>
+  <header class="site-header">
+
+    <div class="wrapper">
+      <a class="muted small" href="https://sysgrammer.github.io">Sysgrammer</a>
     </div>
-    <p class="lead">Documentation of my Lisp Implementation - LISPY</p>
-    <h2 id="introduction">Introduction</h2>
+  </header>
+</body>
+
+</html>
+
+<h1>Lispy Documentation</h1>
+<p class="post-meta"><time itemprop="datePublished">May 18, 2021</time>
+</p>
+<h2 id="introduction">Introduction</h2>
 <p>This webpage contains the documentation of my lisp implementation which was invented by <a href="http://theorangeduck.com/">Daniel Holden</a>. The documentation is divided into sections and the index is available after this introduction. This implementation is very different from all the typical lisps and there are some noticable differences. This guide assumes that you atleast know what Lisps are. However if you don&rsquo;t, I recommend searching about it. It is not completely necessary to understand lisps for you to use Lispy but a little knowledge won&rsquo;t do you any harm.</p>
 <p>Also please note that I am in no way a Lisp expert and apologise to all of the Lisp evangelists who found mistakes due at my ignorance or lack of knowledge.</p>
 <p><strong><strong>Lispy</strong></strong> is a dynamically typed interpreted language implemented in C. It is just meant for fun/tinkering language rather than being a &ldquo;work&rdquo; or &ldquo;production&rdquo; oriented language. This implementation lacks many of the useful features that make up a Programming Language. The focus here, is on the documentation so the deficiencies will be discussed in a later section.</p>
@@ -77,45 +43,45 @@
 </blockquote>
 <h2 id="documentation-index">Documentation Index</h2>
 <ul>
-<li><a href="../../docs/lispy_docs/#getting-started">Getting started</a>
+<li><a href="../../_docs/lispy_docs/#getting-started">Getting started</a>
 <ul>
-<li><a href="../../docs/lispy_docs/#modes">Modes</a></li>
-<li><a href="../../docs/lispy_docs/#hello-world---scripting">Scripting Mode</a></li>
-<li><a href="../../docs/lispy_docs/#hello-world---shell">Shell Mode</a></li>
+<li><a href="../../_docs/lispy_docs/#modes">Modes</a></li>
+<li><a href="../../_docs/lispy_docs/#hello-world---scripting">Scripting Mode</a></li>
+<li><a href="../../_docs/lispy_docs/#hello-world---shell">Shell Mode</a></li>
 </ul>
 </li>
-<li><a href="../../docs/lispy_docs/#comments">Comments</a></li>
-<li><a href="../../docs/lispy_docs/#operators">Operators</a>
+<li><a href="../../_docs/lispy_docs/#comments">Comments</a></li>
+<li><a href="../../_docs/lispy_docs/#operators">Operators</a>
 <ul>
-<li><a href="../../docs/lispy_docs/#mathematical-operators">Mathematical Operators</a></li>
-<li><a href="../../docs/lispy_docs/#relational-operators">Relational Operators</a></li>
-<li><a href="../../docs/lispy_docs/#logical-operators">Logical Operators</a></li>
+<li><a href="../../_docs/lispy_docs/#mathematical-operators">Mathematical Operators</a></li>
+<li><a href="../../_docs/lispy_docs/#relational-operators">Relational Operators</a></li>
+<li><a href="../../_docs/lispy_docs/#logical-operators">Logical Operators</a></li>
 </ul>
 </li>
-<li><a href="../../docs/lispy_docs/#variables">Variables</a>
+<li><a href="../../_docs/lispy_docs/#variables">Variables</a>
 <ul>
 <li><a href="../../docs/lispy_docs/#function-aliasing">Function Aliasing</a></li>
 </ul>
 </li>
-<li><a href="../../docs/lispy_docs/#an-important-difference">S-Expr Vs. Q-Expr</a></li>
-<li><a href="../../docs/lispy_docs/#functions">Functions</a>
+<li><a href="../../_docs/lispy_docs/#an-important-difference">S-Expr Vs. Q-Expr</a></li>
+<li><a href="../../_docs/lispy_docs/#functions">Functions</a>
 <ul>
-<li><a href="../../docs/lispy_docs/#list-functions">List Functions</a></li>
-<li><a href="../../docs/lispy_docs/#user-defined-functions">User Defined Functions</a></li>
+<li><a href="../../_docs/lispy_docs/#list-functions">List Functions</a></li>
+<li><a href="../../_docs/lispy_docs/#user-defined-functions">User Defined Functions</a></li>
 </ul>
 </li>
-<li><a href="../../docs/lispy_docs/#conditionals">Conditionals</a></li>
-<li><a href="../../docs/lispy_docs/#output--file-loading-in-shell-mode-and-scripts">Output and Command Line Arguments</a>
+<li><a href="../../_docs/lispy_docs/#conditionals">Conditionals</a></li>
+<li><a href="../../_docs/lispy_docs/#output--file-loading-in-shell-mode-and-scripts">Output and Command Line Arguments</a>
 <ul>
-<li><a href="../../docs/lispy_docs/#println">Println</a></li>
-<li><a href="../../docs/lispy_docs/#error">Error</a></li>
-<li><a href="../../docs/lispy_docs/#loading">Loading</a></li>
+<li><a href="../../_docs/lispy_docs/#println">Println</a></li>
+<li><a href="../../_docs/lispy_docs/#error">Error</a></li>
+<li><a href="../../_docs/lispy_docs/#loading">Loading</a></li>
 </ul>
 </li>
-<li><a href="../../docs/lispy_docs/standard-library">Standard Library</a></li>
-<li><a href="../../docs/lispy_docs/#deficiencies-as-a-programming-language">Deficiencies</a></li>
-<li><a href="../../docs/lispy_docs/#conclusion">Conclusion</a></li>
-<li><a href="../../docs/lispy_docs/#references">References</a></li>
+<li><a href="../../_docs/lispy_docs/#standard-library">Standard Library</a></li>
+<li><a href="../../_docs/lispy_docs/#deficiencies-as-a-programming-language">Deficiencies</a></li>
+<li><a href="../../_docs/lispy_docs/#conclusion">Conclusion</a></li>
+<li><a href="../../_docs/lispy_docs/#references">References</a></li>
 </ul>
 <h2 id="getting-started">Getting started</h2>
 <h3 id="modes">Modes</h3>
@@ -896,60 +862,13 @@ Press CTRL + C to exit
 <li>My old readme</li>
 </ul>
 
-    <h4><a href="https://sysgrammer.github.io/">Back to Home</a></h4>
-</div>
 
-
-        </div><footer class="container">
-    <hr class="soften">
-    <p>
-
-&copy; 
-<a href="https://github.com/sysgrammer" target="_blank">
-    sysgrammer
-</a>
-<span id="thisyear">2020</span>
-
-
-        | Built on <a href="//gohugo.io" target="_blank">Hugo</a>
-</p>
-    <p class="text-center">
-        
-        <a href="https://twitter.com/sysgrammer">Twitter</a> 
-        
-        <a href="https://github.com/sysgrammer">GitHub</a> 
-        
-    </p>
+<footer>
+    <div>
+        <h3><a href="https://sysgrammer.github.ioposts">Back to all posts</a></h3>
+    </div>
+    <hr>
+    <p>Go <a href="https://sysgrammer.github.io/index.xml">here</a> for an RSS feed.</p>
 </footer>
 
-</body><link rel="stylesheet" href="/css/bootstrap.css">
-<link rel="stylesheet" href="/css/bootstrap-responsive.css">
-<link rel="stylesheet" href="/css/style.css">
-
-<script src="/js/jquery.js"></script>
-<script src="/js/bootstrap-386.js"></script>
-<script src="/js/bootstrap-transition.js"></script>
-<script src="/js/bootstrap-alert.js"></script>
-<script src="/js/bootstrap-modal.js"></script>
-<script src="/js/bootstrap-dropdown.js"></script>
-<script src="/js/bootstrap-scrollspy.js"></script>
-<script src="/js/bootstrap-tab.js"></script>
-<script src="/js/bootstrap-tooltip.js"></script>
-<script src="/js/bootstrap-popover.js"></script>
-<script src="/js/bootstrap-button.js"></script>
-<script src="/js/bootstrap-collapse.js"></script>
-<script src="/js/bootstrap-carousel.js"></script>
-<script src="/js/bootstrap-typeahead.js"></script>
-<script src="/js/bootstrap-affix.js"></script>
-<script>
-    _386 = { 
-        fastLoad: true ,
-        onePass: false , 
-        speedFactor: 1 
-    };
-
-    
-    function ThisYear() {
-        document.getElementById('thisyear').innerHTML = new Date().getFullYear();
-    };
-</script></html>
+</html>

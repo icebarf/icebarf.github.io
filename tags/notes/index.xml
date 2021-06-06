@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>notes on Sysgrammer&#39;s PSA</title>
+    <link>https://sysgrammer.github.io/tags/notes/</link>
+    <description>Recent content in notes on Sysgrammer&#39;s PSA</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 06 Jun 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://sysgrammer.github.io/tags/notes/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>MySQL Functions 12th NCERT</title>
+      <link>https://sysgrammer.github.io/posts/mysql_notes/</link>
+      <pubDate>Sun, 06 Jun 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://sysgrammer.github.io/posts/mysql_notes/</guid>
+      <description>Functions available in MySQL This is a compiled list of types of functions avaialable in mysql chapter of NCERT IP Class 12. Use this as a reference/basic manual. Do whatever you wish with it.
+INTEGER FUNCTIONS &amp;ndash; SELECT POW(x,y); -- power of x raise to y. SELECT ROUND(num, n); -- Rounds off num to n decimal places. SELECT MOD(num1, num2); -- Remainder of num1 divided by num1 or num1/num2. STRING FUNCTIONS SELECT LOWER(str); -- Spits string in lowercase.</description>
+    </item>
+    
+  </channel>
+</rss>

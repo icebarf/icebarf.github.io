@@ -6,15 +6,16 @@
     <description>Recent content in Posts on Sysgrammer&#39;s PSA</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 06 Jun 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://sysgrammer.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 27 Jun 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://sysgrammer.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>MySQL Functions 12th NCERT</title>
-      <link>https://sysgrammer.github.io/posts/mysql_notes/</link>
-      <pubDate>Sun, 06 Jun 2021 00:00:00 +0000</pubDate>
+      <title>2D array using pointers and manually allocated memory</title>
+      <link>https://sysgrammer.github.io/posts/2d-array-using-malloc/</link>
+      <pubDate>Sun, 27 Jun 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://sysgrammer.github.io/posts/mysql_notes/</guid>
-      <description>Functions available in MySQL This is a compiled list of types of functions avaialable in mysql chapter of NCERT IP Class 12. Use this as a reference/basic manual. Do whatever you wish with it.
-INTEGER FUNCTIONS &amp;ndash; SELECT POW(x,y); -- power of x raise to y. SELECT ROUND(num, n); -- Rounds off num to n decimal places. SELECT MOD(num1, num2); -- Remainder of num1 divided by num1 or num1/num2. STRING FUNCTIONS SELECT LOWER(str); -- Spits string in lowercase.</description>
+      <guid>https://sysgrammer.github.io/posts/2d-array-using-malloc/</guid>
+      <description>2D Arrays 2d arrays can be allocated memory with malloc/calloc using the following methods
+First we declare a typedef for a function that we need to initialise the 2-d array with. This also assumes the size of 2-d array is known first.
+typedef type type_array[LENGTH]; Here, type is any builtin type or a struct type or a typedef type and LENGTH is the is the number of columns in the 2D array.</description>
     </item>
     
     <item>

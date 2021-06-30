@@ -8,14 +8,14 @@
     <language>en-us</language>
     <lastBuildDate>Sun, 27 Jun 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://sysgrammer.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>2D array using pointers and manually allocated memory</title>
+      <title>2D array with pointers</title>
       <link>https://sysgrammer.github.io/posts/2d-array-using-malloc/</link>
       <pubDate>Sun, 27 Jun 2021 00:00:00 +0000</pubDate>
       
       <guid>https://sysgrammer.github.io/posts/2d-array-using-malloc/</guid>
-      <description>2D Arrays 2d arrays can be allocated memory with malloc/calloc using the following methods
-First we declare a typedef for a function that we need to initialise the 2-d array with. This also assumes the size of 2-d array is known first.
-typedef type type_array[LENGTH]; Here, type is any builtin type or a struct type or a typedef type and LENGTH is the is the number of columns in the 2D array.</description>
+      <description>Concept In this case we&amp;rsquo;re not gonna be using as quote-on-quote multidimensional arrays. We&amp;rsquo;re gonna be using a pointer to an array and then Use the pointer offset &amp;ldquo;like&amp;rdquo; an array. Essential what I am trying to get at is the follwing:
+int (*my_arr)[] This declares my array as a pointer to an array of integers.
+And to rid us of the confusion we&amp;rsquo;re gonna use a typedef some type to type[ARRAY]</description>
     </item>
     
     <item>

@@ -42,8 +42,8 @@ And to rid us of the confusion we&amp;rsquo;re gonna use a typedef some type to 
       <pubDate>Sat, 22 May 2021 00:00:00 +0000</pubDate>
       
       <guid>https://sysgrammer.github.io/about/</guid>
-      <description>I like to do systems programming and other stuff. I&amp;rsquo;m interesting in Operating Systems, Reverse Engineering, backends and other lower level stuff (compared to the modern standards).
-I mainly program in C and i know a little python. I plan on learning C++, Rust, Go.
+      <description>I like to do systems programming and other stuff. I&amp;rsquo;m interesting in Operating Systems, Reverse Engineering, backends and other lower level stuff.
+I mainly program in C.
 Contact Email: sysgrammer@protonmail.com
 Github: sysgrammer
 Twitter: @sysgrammer</description>

@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/fonts.css">
+    
+    <title>Sysgrammer</title>
+    <link rel="icon" type="image/png" href="/assets/img/favicon.ico" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
+        integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+    <script src="/js/dark.js" defer=""></script>
+
+</head>
+
+
+<html>
+<!DOCTYPE html>
+<html>
+
+<body>
+  <header class="site-header">
+
+    <div class="wrapper">
+      <a class="muted small" href="https://sysgrammer.github.io/">Sysgrammer</a>
+    </div>
+  </header>
+</body>
+
+</html>
+
+<h1>Implementing CDECL</h1>
+<p class="post-meta"><time itemprop="datePublished">July 1, 2021</time>
+</p>
+<h1 id="implementing-cdecl">Implementing cdecl</h1>
+<p>Example input: <code>int (*typer ())[];</code></p>
+<p>Example output: typer is a function returning a pointer to an array-of-int</p>
+<p>How do we achieve this. First we have classify the input string and separate it
+out.</p>
+<h2 id="input-size">Input Size</h2>
+<p>We&rsquo;re gonna need a limit of how big declarations we can process, The ANSI C
+Standard specified a translation limit on how big a source line can be, that is
+509 Lines. We&rsquo;re gonna use 510 as the limit of out input string. So something
+like:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-c" data-lang="c"><span style="color:#75715e">#define     510     MAXINPUTLEN
+</span></code></pre></div><h2 id="tokenizing-the-input">Tokenizing the input</h2>
+<p>Let&rsquo;s separate/tokenize it into the following</p>
+<ul>
+<li>Identifier (alphanumeric) - Use isalnum() and make sure it reads <code>-</code> and <code>_</code></li>
+<li>Types (alphabetic) - should be lowercase only</li>
+<li>Qualifier (alphabetic) - should be lowercase only
+<ol>
+<li>Type (volatile, const, *, register etc)</li>
+<li>Size (long, long long, short etc)</li>
+<li>Sign (signed, unsigned)</li>
+</ol>
+</li>
+</ul>
+<p>Now that we&rsquo;ve seprated out input string into different parts, we need routines
+to process them. Before processing, we need to lay down a few rules on how to
+read a declaration, I&rsquo;ve read these rules from the book <strong>Expert C Programming</strong></p>
+<h2 id="reading-declarations">Reading declarations</h2>
+<p>A dummy declaration:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-c" data-lang="c"><span style="color:#66d9ef">char</span> <span style="color:#f92672">*</span>(<span style="color:#f92672">*</span>arr (<span style="color:#66d9ef">int</span> <span style="color:#f92672">*</span>size, <span style="color:#66d9ef">char</span> <span style="color:#f92672">*</span>ptr_to) ) []
+</code></pre></div><ol>
+<li>
+<p>First start reading from left and find the first identifier.
+<code>arr</code> is our identifier</p>
+<ul>
+<li>Say <code>declare arr as</code></li>
+</ul>
+</li>
+<li>
+<p>Now first read to the right of the identifier and look for either <code>()</code> or
+<code>[]</code></p>
+<p>If it&rsquo;s a <code>()</code>, we say <code>function returning</code></p>
+<p>If it&rsquo;s a <code>[]</code>, then we say <code>array of</code></p>
+<p>The function call/parenthesis <code>()</code> and the subscript operator <code>[]</code> have
+higher precedence. For now we can ignore what&rsquo;s inside the <code>()</code>
+declaration.</p>
+<p>We have a <code>()</code> thus it is a function, so now our english interpretation
+becomes</p>
+<ul>
+<li><code>declare arr as function returning</code></li>
+</ul>
+</li>
+<li>
+<p>Now after reading to the right and finding either of <code>()</code> or <code>[]</code>. Now
+we go to the left and look for any Qualifiers. The ones we talked about above,
+now, in our case it is a <code>*</code> which means it is a pointer. We say <code>pointer to</code></p>
+<p>The declaration becomes</p>
+<pre><code>declare arr as function returning  pointer to 
+</code></pre></li>
+<li>
+<p>Now at this point we again move to the right skipping over the last token we
+read which was a function declaration, After the function declaration we notice
+a <code>)</code> closing bracket, which means it is an enclosue and we must match for a
+<code>(</code> opening bracket, so we move to the left and find a <code>(</code>.</p>
+</li>
+</ol>
+<p><strong>Declaration again</strong></p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-c" data-lang="c"><span style="color:#66d9ef">char</span> <span style="color:#f92672">*</span>(<span style="color:#f92672">*</span>arr (<span style="color:#66d9ef">int</span> <span style="color:#f92672">*</span>size, <span style="color:#66d9ef">char</span> <span style="color:#f92672">*</span>ptr_to) ) []
+</code></pre></div><ol start="5">
+<li>
+<p>After this now we move to the right again and find a <code>[]</code> which means it is
+an array. So out declaration becomes</p>
+<ul>
+<li><code>declare arr as function returning a pointer to array of</code></li>
+</ul>
+</li>
+<li>
+<p>Now we move to the left again, and we find a qualifier <code>*</code>, this makes our
+declaration</p>
+<ul>
+<li><code>declare arr as function returning a pointer to array of pointer to</code></li>
+</ul>
+</li>
+<li>
+<p>Now moving to the right again, we notice there is nothing else on the right
+after we read the <code>[]</code>. Now we will continue to the left. We notice there is a
+type. So out declaration becomes:</p>
+<ul>
+<li><code>declare arr as function returning a pointer to array of pointer to char</code></li>
+</ul>
+</li>
+</ol>
+<p>And we&rsquo;re done! This is how to read declarations, now we have to implement this
+logic into cdecl program.</p>
+<h2 id="routines">Routines</h2>
+<p>// To think about yet</p>
+
+
+<footer>
+    <div>
+        <h3><a href="https://sysgrammer.github.io/posts">Back to all posts</a></h3>
+    </div>
+    <hr>
+    <p>Go <a href="https://sysgrammer.github.io//index.xml">here</a> for an RSS feed.</p>
+</footer>
+
+</html>

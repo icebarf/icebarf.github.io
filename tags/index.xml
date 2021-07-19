@@ -1,54 +1,54 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Tags on Sysgrammer&#39;s PSA</title>
-    <link>https://sysgrammer.github.io/tags/</link>
-    <description>Recent content in Tags on Sysgrammer&#39;s PSA</description>
+    <title>Tags on My website</title>
+    <link>https://icebarf.github.io/tags/</link>
+    <description>Recent content in Tags on My website</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 01 Jul 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://sysgrammer.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 01 Jul 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://icebarf.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>notes</title>
-      <link>https://sysgrammer.github.io/tags/notes/</link>
+      <link>https://icebarf.github.io/tags/notes/</link>
       <pubDate>Thu, 01 Jul 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://sysgrammer.github.io/tags/notes/</guid>
+      <guid>https://icebarf.github.io/tags/notes/</guid>
       <description></description>
     </item>
     
     <item>
       <title>posts</title>
-      <link>https://sysgrammer.github.io/tags/posts/</link>
+      <link>https://icebarf.github.io/tags/posts/</link>
       <pubDate>Thu, 01 Jul 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://sysgrammer.github.io/tags/posts/</guid>
+      <guid>https://icebarf.github.io/tags/posts/</guid>
       <description></description>
     </item>
     
     <item>
       <title>info</title>
-      <link>https://sysgrammer.github.io/tags/info/</link>
+      <link>https://icebarf.github.io/tags/info/</link>
       <pubDate>Sat, 22 May 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://sysgrammer.github.io/tags/info/</guid>
+      <guid>https://icebarf.github.io/tags/info/</guid>
       <description></description>
     </item>
     
     <item>
       <title>news</title>
-      <link>https://sysgrammer.github.io/tags/news/</link>
+      <link>https://icebarf.github.io/tags/news/</link>
       <pubDate>Sat, 22 May 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://sysgrammer.github.io/tags/news/</guid>
+      <guid>https://icebarf.github.io/tags/news/</guid>
       <description></description>
     </item>
     
     <item>
       <title>lispy, lisp</title>
-      <link>https://sysgrammer.github.io/tags/lispy-lisp/</link>
+      <link>https://icebarf.github.io/tags/lispy-lisp/</link>
       <pubDate>Tue, 18 May 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://sysgrammer.github.io/tags/lispy-lisp/</guid>
+      <guid>https://icebarf.github.io/tags/lispy-lisp/</guid>
       <description></description>
     </item>
     

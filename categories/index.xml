@@ -1,36 +1,36 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Categories on Sysgrammer&#39;s PSA</title>
-    <link>https://sysgrammer.github.io/categories/</link>
-    <description>Recent content in Categories on Sysgrammer&#39;s PSA</description>
+    <title>Categories on My website</title>
+    <link>https://icebarf.github.io/categories/</link>
+    <description>Recent content in Categories on My website</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 01 Jul 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://sysgrammer.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 01 Jul 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://icebarf.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>C</title>
-      <link>https://sysgrammer.github.io/categories/c/</link>
+      <link>https://icebarf.github.io/categories/c/</link>
       <pubDate>Thu, 01 Jul 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://sysgrammer.github.io/categories/c/</guid>
+      <guid>https://icebarf.github.io/categories/c/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Website Info</title>
-      <link>https://sysgrammer.github.io/categories/website-info/</link>
+      <link>https://icebarf.github.io/categories/website-info/</link>
       <pubDate>Sat, 22 May 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://sysgrammer.github.io/categories/website-info/</guid>
+      <guid>https://icebarf.github.io/categories/website-info/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Documentation</title>
-      <link>https://sysgrammer.github.io/categories/documentation/</link>
+      <link>https://icebarf.github.io/categories/documentation/</link>
       <pubDate>Tue, 18 May 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://sysgrammer.github.io/categories/documentation/</guid>
+      <guid>https://icebarf.github.io/categories/documentation/</guid>
       <description></description>
     </item>
     

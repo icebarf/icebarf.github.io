@@ -1,36 +1,36 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>News on Sysgrammer&#39;s PSA</title>
-    <link>https://sysgrammer.github.io/news/</link>
-    <description>Recent content in News on Sysgrammer&#39;s PSA</description>
+    <title>News on My website</title>
+    <link>https://icebarf.github.io/news/</link>
+    <description>Recent content in News on My website</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 23 May 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://sysgrammer.github.io/news/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 23 May 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://icebarf.github.io/news/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Daily Updates</title>
-      <link>https://sysgrammer.github.io/news/may23_2021/</link>
+      <link>https://icebarf.github.io/news/may23_2021/</link>
       <pubDate>Sun, 23 May 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://sysgrammer.github.io/news/may23_2021/</guid>
+      <guid>https://icebarf.github.io/news/may23_2021/</guid>
       <description>Spent day stuyding Didn&amp;rsquo;t program  Realised how much I have to cope with studies. See ya</description>
     </item>
     
     <item>
       <title>Daily Updates</title>
-      <link>https://sysgrammer.github.io/news/may22_2021/</link>
+      <link>https://icebarf.github.io/news/may22_2021/</link>
       <pubDate>Sat, 22 May 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://sysgrammer.github.io/news/may22_2021/</guid>
+      <guid>https://icebarf.github.io/news/may22_2021/</guid>
       <description>Learnt Linked Lists (in C ). Need practice Renovated website. We (re-)launched(?)  So&amp;hellip; Yesterday I said I would read Beej&amp;rsquo;s guide and try to finish that in 2-3 days. Well, I didn&amp;rsquo;t even read the guide, I just spent half of my day randomly spending time on Together C &amp;amp; C++ Discord and renovating my website. The took a small afternoon nap. The started learning Data structures, well to be more precise Linked Lists, to be even more precise Singly Linked Lists.</description>
     </item>
     
     <item>
       <title>Daily Updates</title>
-      <link>https://sysgrammer.github.io/news/may21_2021/</link>
+      <link>https://icebarf.github.io/news/may21_2021/</link>
       <pubDate>Fri, 21 May 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://sysgrammer.github.io/news/may21_2021/</guid>
+      <guid>https://icebarf.github.io/news/may21_2021/</guid>
       <description>Re-started reading Beej&amp;rsquo;s Guide to Network Programming Added token exception handling to bot  Okay Now I&amp;rsquo;ve talked about what I&amp;rsquo;ve been doing and will do, I&amp;rsquo;m thinking that mall0cd&amp;rsquo;s library might need a re write due to an issue caused by libjansson.h. I planned on helping him continue his work but after some debugging with my bot we realised that library was fundamentally flawed due to the JSON parser as indicated by valgrind.</description>
     </item>
     

@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Sysgrammer&#39;s Website on Sysgrammer&#39;s PSA</title>
-    <link>https://sysgrammer.github.io/</link>
-    <description>Recent content in Sysgrammer&#39;s Website on Sysgrammer&#39;s PSA</description>
+    <title>icebarf&#39;s Website on My website</title>
+    <link>https://icebarf.github.io/</link>
+    <description>Recent content in icebarf&#39;s Website on My website</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 01 Jul 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://sysgrammer.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 01 Jul 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://icebarf.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Implementing CDECL</title>
-      <link>https://sysgrammer.github.io/posts/incomplete-implementation-cdecl/</link>
+      <link>https://icebarf.github.io/posts/incomplete-implementation-cdecl/</link>
       <pubDate>Thu, 01 Jul 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://sysgrammer.github.io/posts/incomplete-implementation-cdecl/</guid>
+      <guid>https://icebarf.github.io/posts/incomplete-implementation-cdecl/</guid>
       <description>Example input:
 Example output: typer is a function returning a pointer to an array-of-int
 How do we achieve this. First we have classify the input string and separate it out.
@@ -21,10 +21,10 @@ Input Size We&amp;rsquo;re gonna need a limit of how big declarations we can pro
     
     <item>
       <title>2D array with pointers</title>
-      <link>https://sysgrammer.github.io/posts/2d-array-using-malloc/</link>
+      <link>https://icebarf.github.io/posts/2d-array-using-malloc/</link>
       <pubDate>Sun, 27 Jun 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://sysgrammer.github.io/posts/2d-array-using-malloc/</guid>
+      <guid>https://icebarf.github.io/posts/2d-array-using-malloc/</guid>
       <description>Concept In this case we&amp;rsquo;re not gonna be using as quote-on-quote multidimensional arrays. We&amp;rsquo;re gonna be using a pointer to an array and then Use the pointer offset &amp;ldquo;like&amp;rdquo; an array. Essentially what I am trying to get at is the follwing:
 int (*my_arr)[] This declares my array as a pointer to an array of integers.
 And to rid us of the confusion we&amp;rsquo;re gonna use a typedef some type to type[ARRAY]</description>
@@ -32,59 +32,59 @@ And to rid us of the confusion we&amp;rsquo;re gonna use a typedef some type to 
     
     <item>
       <title>Daily Updates</title>
-      <link>https://sysgrammer.github.io/news/may23_2021/</link>
+      <link>https://icebarf.github.io/news/may23_2021/</link>
       <pubDate>Sun, 23 May 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://sysgrammer.github.io/news/may23_2021/</guid>
+      <guid>https://icebarf.github.io/news/may23_2021/</guid>
       <description>Spent day stuyding Didn&amp;rsquo;t program  Realised how much I have to cope with studies. See ya</description>
     </item>
     
     <item>
       <title>A Fresh Look on my website</title>
-      <link>https://sysgrammer.github.io/posts/fresh_look/</link>
+      <link>https://icebarf.github.io/posts/fresh_look/</link>
       <pubDate>Sat, 22 May 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://sysgrammer.github.io/posts/fresh_look/</guid>
-      <description>While talking to a good friend of mine, He recommended me a static site generator called Hugo. It is a quite a powerful tool and has many themes and support for templates from other web programming languages/markup languages. I won&amp;rsquo;t go into much detail now but it is how it is. Anyways, we both found this cool theme that we&amp;rsquo;re using right now and it is called hugo.386. It took me about 2-3 Hours to configure everything right along with some trial and error on some areas and now we&amp;rsquo;re here.</description>
+      <guid>https://icebarf.github.io/posts/fresh_look/</guid>
+      <description>Deprecated While talking to a good friend of mine, He recommended me a static site generator called Hugo. It is a quite a powerful tool and has many themes and support for templates from other web programming languages/markup languages. I won&amp;rsquo;t go into much detail now but it is how it is. Anyways, we both found this cool theme that we&amp;rsquo;re using right now and it is called hugo.386. It took me about 2-3 Hours to configure everything right along with some trial and error on some areas and now we&amp;rsquo;re here.</description>
     </item>
     
     <item>
       <title>About</title>
-      <link>https://sysgrammer.github.io/about/</link>
+      <link>https://icebarf.github.io/about/</link>
       <pubDate>Sat, 22 May 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://sysgrammer.github.io/about/</guid>
+      <guid>https://icebarf.github.io/about/</guid>
       <description>I like to do systems programming and other stuff. I&amp;rsquo;m interesting in Operating Systems, Reverse Engineering, backends and other lower level stuff.
 I mainly program in C.
 Contact Email: sysgrammer@protonmail.com
-Github: sysgrammer
+Github: icebarf
 Twitter: @sysgrammer</description>
     </item>
     
     <item>
       <title>Daily Updates</title>
-      <link>https://sysgrammer.github.io/news/may22_2021/</link>
+      <link>https://icebarf.github.io/news/may22_2021/</link>
       <pubDate>Sat, 22 May 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://sysgrammer.github.io/news/may22_2021/</guid>
+      <guid>https://icebarf.github.io/news/may22_2021/</guid>
       <description>Learnt Linked Lists (in C ). Need practice Renovated website. We (re-)launched(?)  So&amp;hellip; Yesterday I said I would read Beej&amp;rsquo;s guide and try to finish that in 2-3 days. Well, I didn&amp;rsquo;t even read the guide, I just spent half of my day randomly spending time on Together C &amp;amp; C++ Discord and renovating my website. The took a small afternoon nap. The started learning Data structures, well to be more precise Linked Lists, to be even more precise Singly Linked Lists.</description>
     </item>
     
     <item>
       <title>Daily Updates</title>
-      <link>https://sysgrammer.github.io/news/may21_2021/</link>
+      <link>https://icebarf.github.io/news/may21_2021/</link>
       <pubDate>Fri, 21 May 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://sysgrammer.github.io/news/may21_2021/</guid>
+      <guid>https://icebarf.github.io/news/may21_2021/</guid>
       <description>Re-started reading Beej&amp;rsquo;s Guide to Network Programming Added token exception handling to bot  Okay Now I&amp;rsquo;ve talked about what I&amp;rsquo;ve been doing and will do, I&amp;rsquo;m thinking that mall0cd&amp;rsquo;s library might need a re write due to an issue caused by libjansson.h. I planned on helping him continue his work but after some debugging with my bot we realised that library was fundamentally flawed due to the JSON parser as indicated by valgrind.</description>
     </item>
     
     <item>
       <title>Lispy Documentation</title>
-      <link>https://sysgrammer.github.io/docs/lispy_docs/</link>
+      <link>https://icebarf.github.io/docs/lispy_docs/</link>
       <pubDate>Tue, 18 May 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://sysgrammer.github.io/docs/lispy_docs/</guid>
+      <guid>https://icebarf.github.io/docs/lispy_docs/</guid>
       <description>Introduction This webpage contains the documentation of my lisp implementation which was invented by Daniel Holden. The documentation is divided into sections and the index is available after this introduction. This implementation is very different from all the typical lisps and there are some noticable differences. This guide assumes that you atleast know what Lisps are. However if you don&amp;rsquo;t, I recommend searching about it. It is not completely necessary to understand lisps for you to use Lispy but a little knowledge won&amp;rsquo;t do you any harm.</description>
     </item>
     

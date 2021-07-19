@@ -1,0 +1,11 @@
+# Q1 - Consider the table "Item" given and give outputs on basis of it.
+
+### a) SELECT SUM(Price) FROM ITEM;
+
+Ans:
+
++------------+
+| SUM(Price) |
++------------+
+|        370 |
++------------+

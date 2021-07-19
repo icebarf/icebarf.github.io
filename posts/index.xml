@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Posts on Sysgrammer&#39;s PSA</title>
-    <link>https://sysgrammer.github.io/posts/</link>
-    <description>Recent content in Posts on Sysgrammer&#39;s PSA</description>
+    <title>Posts on My website</title>
+    <link>https://icebarf.github.io/posts/</link>
+    <description>Recent content in Posts on My website</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 01 Jul 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://sysgrammer.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 01 Jul 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://icebarf.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Implementing CDECL</title>
-      <link>https://sysgrammer.github.io/posts/incomplete-implementation-cdecl/</link>
+      <link>https://icebarf.github.io/posts/incomplete-implementation-cdecl/</link>
       <pubDate>Thu, 01 Jul 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://sysgrammer.github.io/posts/incomplete-implementation-cdecl/</guid>
+      <guid>https://icebarf.github.io/posts/incomplete-implementation-cdecl/</guid>
       <description>Example input:
 Example output: typer is a function returning a pointer to an array-of-int
 How do we achieve this. First we have classify the input string and separate it out.
@@ -21,10 +21,10 @@ Input Size We&amp;rsquo;re gonna need a limit of how big declarations we can pro
     
     <item>
       <title>2D array with pointers</title>
-      <link>https://sysgrammer.github.io/posts/2d-array-using-malloc/</link>
+      <link>https://icebarf.github.io/posts/2d-array-using-malloc/</link>
       <pubDate>Sun, 27 Jun 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://sysgrammer.github.io/posts/2d-array-using-malloc/</guid>
+      <guid>https://icebarf.github.io/posts/2d-array-using-malloc/</guid>
       <description>Concept In this case we&amp;rsquo;re not gonna be using as quote-on-quote multidimensional arrays. We&amp;rsquo;re gonna be using a pointer to an array and then Use the pointer offset &amp;ldquo;like&amp;rdquo; an array. Essentially what I am trying to get at is the follwing:
 int (*my_arr)[] This declares my array as a pointer to an array of integers.
 And to rid us of the confusion we&amp;rsquo;re gonna use a typedef some type to type[ARRAY]</description>
@@ -32,11 +32,11 @@ And to rid us of the confusion we&amp;rsquo;re gonna use a typedef some type to 
     
     <item>
       <title>A Fresh Look on my website</title>
-      <link>https://sysgrammer.github.io/posts/fresh_look/</link>
+      <link>https://icebarf.github.io/posts/fresh_look/</link>
       <pubDate>Sat, 22 May 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://sysgrammer.github.io/posts/fresh_look/</guid>
-      <description>While talking to a good friend of mine, He recommended me a static site generator called Hugo. It is a quite a powerful tool and has many themes and support for templates from other web programming languages/markup languages. I won&amp;rsquo;t go into much detail now but it is how it is. Anyways, we both found this cool theme that we&amp;rsquo;re using right now and it is called hugo.386. It took me about 2-3 Hours to configure everything right along with some trial and error on some areas and now we&amp;rsquo;re here.</description>
+      <guid>https://icebarf.github.io/posts/fresh_look/</guid>
+      <description>Deprecated While talking to a good friend of mine, He recommended me a static site generator called Hugo. It is a quite a powerful tool and has many themes and support for templates from other web programming languages/markup languages. I won&amp;rsquo;t go into much detail now but it is how it is. Anyways, we both found this cool theme that we&amp;rsquo;re using right now and it is called hugo.386. It took me about 2-3 Hours to configure everything right along with some trial and error on some areas and now we&amp;rsquo;re here.</description>
     </item>
     
   </channel>

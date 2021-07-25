@@ -88,19 +88,19 @@
 <p>Lispy can be in two modes &ndash; shell and scripting. Shell mode is one where you all code is executed per line like the Python interpreter. Scripting mode is where you execute <code>lispy</code> binary with a file having extension <code>.bsf</code>. The Following section will give some examples:</p>
 <h3 id="hello-world---scripting">Hello World - Scripting</h3>
 <p>A standard hello world program looks like this in lispy.</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-lisp" data-lang="lisp">(println <span style="color:#e6db74">&#34;Hello, World!&#34;</span>)
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-lisp" data-lang="lisp">(println <span style="color:#e6db74">&#34;Hello, World!&#34;</span>)
 </code></pre></div><p>Then we store above text in a file called <code>hello.bsf</code> and then we run it using the following command.</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">$ lispy hello.bsf
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">$ lispy hello.bsf
 </code></pre></div><p>and the output should give us</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">$ <span style="color:#e6db74">&#34;Hello, World!&#34;</span>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">$ <span style="color:#e6db74">&#34;Hello, World!&#34;</span>
 </code></pre></div><h3 id="hello-world---shell">Hello World - Shell</h3>
 <p>In the shell mode first we execute lispy</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">$ lispy
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">$ lispy
 Lispy version 1.0.2
 Press CTRL + C to exit
 &gt;&gt;&gt; 
 </code></pre></div><p>This is the output you should get. After this we&rsquo;re going to print hello world using <code>println</code> builtin</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">&gt;&gt;&gt; <span style="color:#f92672">(</span>println <span style="color:#e6db74">&#34;Hello, World!&#34;</span><span style="color:#f92672">)</span>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">&gt;&gt;&gt; <span style="color:#f92672">(</span>println <span style="color:#e6db74">&#34;Hello, World!&#34;</span><span style="color:#f92672">)</span>
 <span style="color:#e6db74">&#34;Hello, World!&#34;</span>
 <span style="color:#f92672">()</span>
 </code></pre></div><p>Note that in shell mode, <code>()</code> indicates success.</p>
@@ -108,7 +108,7 @@ Press CTRL + C to exit
 <h2 id="comments">Comments</h2>
 <p>Lines starting with<code>semi-colon</code>( <code>;</code>) are comments in the lisp. These lines are ignored by the interpreter</p>
 <p>For example:</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-lisp" data-lang="lisp"><span style="color:#75715e">; This will print &#34;X doesnt equal to y&#34;</span>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-lisp" data-lang="lisp"><span style="color:#75715e">; This will print &#34;X doesnt equal to y&#34;</span>
 (def {x y} <span style="color:#ae81ff">24</span> <span style="color:#ae81ff">23</span>)
 (<span style="color:#66d9ef">if</span> (== x y) 
   {println <span style="color:#e6db74">&#34;X equals to y&#34;</span>}
@@ -116,10 +116,10 @@ Press CTRL + C to exit
 </code></pre></div><p>In the above example, the line after the semi-colon is ignored and does not affect the code at all and is meant to provide readability only.</p>
 <h2 id="operators">Operators</h2>
 <p>The operators in lispy follow polish notation i.e they come before their operands. For example, To add two numbers we must do</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-lisp" data-lang="lisp">&gt;&gt;&gt; (add <span style="color:#ae81ff">2</span> <span style="color:#ae81ff">2</span>)
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-lisp" data-lang="lisp">&gt;&gt;&gt; (add <span style="color:#ae81ff">2</span> <span style="color:#ae81ff">2</span>)
 <span style="color:#ae81ff">4.00000</span>
 </code></pre></div><p>or</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-lisp" data-lang="lisp">&gt;&gt;&gt; (<span style="color:#a6e22e">+</span> <span style="color:#ae81ff">2</span> <span style="color:#ae81ff">2</span>)
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-lisp" data-lang="lisp">&gt;&gt;&gt; (<span style="color:#a6e22e">+</span> <span style="color:#ae81ff">2</span> <span style="color:#ae81ff">2</span>)
 <span style="color:#ae81ff">4.00000</span>
 </code></pre></div><h3 id="mathematical-operators">Mathematical Operators</h3>
 <p>There are 8 arithmetic operators and the following table shows the comprehensive list of mathematical operators in lispy.</p>
@@ -309,7 +309,7 @@ Press CTRL + C to exit
 </tbody>
 </table>
 <p>Some examples:</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-lisp" data-lang="lisp"><span style="color:#75715e">; A number as a variable</span>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-lisp" data-lang="lisp"><span style="color:#75715e">; A number as a variable</span>
 &gt;&gt;&gt; (def {num} <span style="color:#ae81ff">25</span>)
 ()
 &gt;&gt;&gt; <span style="color:#75715e">;Printing the variable now</span>
@@ -336,7 +336,7 @@ Press CTRL + C to exit
 </code></pre></div><h3 id="function-aliasing">Function Aliasing</h3>
 <p>The <code>def</code> keyword can also be used to rename builtin functions as something else. This is due to the Parent-Child environment structure that was described earlier.</p>
 <p>For example, We can alias <code>mul</code> as <code>add-n-times</code></p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-lisp" data-lang="lisp">&gt;&gt;&gt; (def {add-n-times} mul)
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-lisp" data-lang="lisp">&gt;&gt;&gt; (def {add-n-times} mul)
 ()
 &gt;&gt;&gt; add-n-times <span style="color:#ae81ff">2</span> <span style="color:#ae81ff">2</span>
 <span style="color:#ae81ff">4.00000</span>
@@ -450,7 +450,7 @@ Press CTRL + C to exit
 </table>
 <p>The above function might be hard to understand so let me interject for a moment and explain how it works, as the description says, it evaluates lists or q-expressions. Normally, If <code>{println &quot;hello, World!&quot;}</code> were a normal q-expr i.e without <code>eval</code>. It would have just been a normal q-expr of length 2 and its content would remain untouched unless explicitly done with List functions. Its contents would not have been evaluated.</p>
 <p>With the <code>eval</code>function, it gets evaluated. Another example</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-lisp" data-lang="lisp">&gt;&gt;&gt; <span style="color:#a6e22e">eval</span> {tail {23 <span style="color:#ae81ff">25</span> 26}}
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-lisp" data-lang="lisp">&gt;&gt;&gt; <span style="color:#a6e22e">eval</span> {tail {23 <span style="color:#ae81ff">25</span> 26}}
 {25 26}
 </code></pre></div><h4 id="cons">Cons</h4>
 <table>
@@ -532,12 +532,12 @@ Press CTRL + C to exit
 </tbody>
 </table>
 <p>As you can see, to define a function that takes two arguments and multiplies them, we use the above code. Then to call it we have to reuse the above code:</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-lisp" data-lang="lisp">&gt;&gt;&gt; (\ {x y} {* x y}) <span style="color:#ae81ff">10</span> <span style="color:#ae81ff">20</span>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-lisp" data-lang="lisp">&gt;&gt;&gt; (\ {x y} {* x y}) <span style="color:#ae81ff">10</span> <span style="color:#ae81ff">20</span>
 <span style="color:#ae81ff">200.00000</span>
 </code></pre></div><p>As you can see readability is quite hard and there is a lot of redundant code. Then we can name it using the <code>def</code> keyword described earlier.</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-lisp" data-lang="lisp">&gt;&gt;&gt; def {mul} (\ {x y} {+ x y})
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-lisp" data-lang="lisp">&gt;&gt;&gt; def {mul} (\ {x y} {+ x y})
 </code></pre></div><p>Then we can just call it by its name along with its arguments</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-lisp" data-lang="lisp">&gt;&gt;&gt; mul <span style="color:#ae81ff">5</span> <span style="color:#ae81ff">2</span>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-lisp" data-lang="lisp">&gt;&gt;&gt; mul <span style="color:#ae81ff">5</span> <span style="color:#ae81ff">2</span>
 </code></pre></div><p>This method defining functions is quite tedious and repetitive and hard to read. Therefore the standard library has a function <code>fun</code> which allows the user to define other functions.</p>
 <h3 id="fun">Fun</h3>
 <table>
@@ -561,7 +561,7 @@ Press CTRL + C to exit
 <p>The function takes two q-expr arguments same as lambda and then defines a function in child environment.</p>
 <p>Using fun requires you to <code>load</code> the standard library which is present in <code>/usr/bin/stdlib.bsf</code>. It can be loaded with <code>load &quot;/usr/bin/stdlib.bsf&quot;</code> on top of the file. <code>load</code> function will be described in the later sections.</p>
 <p>The fun function is implemented as following:</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-lisp" data-lang="lisp">&gt;&gt;&gt; fun
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-lisp" data-lang="lisp">&gt;&gt;&gt; fun
 &gt;&gt;&gt; (\ {f b} {def (head f) (\ (tail f) b)})
 </code></pre></div><h2 id="conditionals">Conditionals</h2>
 <h3 id="if">If</h3>
@@ -586,35 +586,35 @@ Press CTRL + C to exit
 </table>
 <p>The else statement is implicit and is not explicitly defined in the language. It is always the statement that follows the first <code>{}</code> Q-expr.</p>
 <p>Example: Store the following in a <code>test.bsf</code> file</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-lisp" data-lang="lisp"><span style="color:#75715e">; This will print &#34;X equals to y&#34;</span>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-lisp" data-lang="lisp"><span style="color:#75715e">; This will print &#34;X equals to y&#34;</span>
 (def {x y} <span style="color:#ae81ff">23</span> <span style="color:#ae81ff">23</span>)
 (<span style="color:#66d9ef">if</span> (== x y) 
   {println <span style="color:#e6db74">&#34;X equals to y&#34;</span>}
 {println <span style="color:#e6db74">&#34;X doesnt equal to y&#34;</span>}) 
 </code></pre></div><p>Then we run it with</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">$ lispy test.bsf
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">$ lispy test.bsf
 <span style="color:#e6db74">&#34;X equals to y&#34;</span>
 </code></pre></div><p><strong>Else Example:</strong></p>
 <p>Store the following in a <code>test.bsf</code> file</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-lisp" data-lang="lisp"><span style="color:#75715e">; This will print &#34;X doesnt equal to y&#34;</span>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-lisp" data-lang="lisp"><span style="color:#75715e">; This will print &#34;X doesnt equal to y&#34;</span>
 (def {x y} <span style="color:#ae81ff">24</span> <span style="color:#ae81ff">23</span>)
 (<span style="color:#66d9ef">if</span> (== x y) 
   {println <span style="color:#e6db74">&#34;X equals to y&#34;</span>}
 {println <span style="color:#e6db74">&#34;X doesnt equal to y&#34;</span>}) 
 </code></pre></div><p>Then we run it with</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">$ lispy test.bsf
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">$ lispy test.bsf
 <span style="color:#e6db74">&#34;X doesn&#39;t equal to y&#34;</span>
 </code></pre></div><h2 id="output--file-loading-in-shell-mode-and-scripts">Output &amp; File loading in shell mode and scripts</h2>
 <p>Lispy has two builtin functions defined in it which allow to send output to the user. The Functions are <code>println</code> and <code>error</code>. As from the names it is quite clear what their purpose is. Both functions are described briefly here.</p>
 <h3 id="println">Println</h3>
 <p>This function prints each argument separated by a space and then prints a newline character to finish. It returns the empty expression.</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-lisp" data-lang="lisp">(def {x y} <span style="color:#ae81ff">23</span> <span style="color:#ae81ff">23</span>)
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-lisp" data-lang="lisp">(def {x y} <span style="color:#ae81ff">23</span> <span style="color:#ae81ff">23</span>)
 (<span style="color:#66d9ef">if</span> (== x y) 
   {println <span style="color:#e6db74">&#34;X equals to y&#34;</span>}
 </code></pre></div><p>If we run above code using <code>lispy</code>, The line X equals to y will be printed.</p>
 <h4 id="printing-variables">Printing variables</h4>
 <p>We can print variables using the <code>println</code> statement. We can simply just give it a name of the variable and it will print it.</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-lisp" data-lang="lisp">&gt;&gt;&gt; def {num1} <span style="color:#ae81ff">2</span>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-lisp" data-lang="lisp">&gt;&gt;&gt; def {num1} <span style="color:#ae81ff">2</span>
 ()
 &gt;&gt;&gt; println num1
 <span style="color:#ae81ff">2.00000</span>
@@ -625,7 +625,7 @@ Press CTRL + C to exit
 ()
 </code></pre></div><h3 id="error">Error</h3>
 <p>This builtin is meant to return errors to the user in case anything goes wrong during the execution. Its syntax is very similar to <code>println</code>. It takes a string as argument and prints it if the control flow reaches the error statement.</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-lisp" data-lang="lisp">(def {x y} <span style="color:#ae81ff">3</span> <span style="color:#ae81ff">2</span>)
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-lisp" data-lang="lisp">(def {x y} <span style="color:#ae81ff">3</span> <span style="color:#ae81ff">2</span>)
 (<span style="color:#66d9ef">if</span> (== (% x y) <span style="color:#ae81ff">0</span>)
   {println <span style="color:#e6db74">&#34;x / y is true&#34;</span>}
 {error <span style="color:#e6db74">&#34;X is not divisible by Y&#34;</span>})
@@ -650,14 +650,14 @@ Press CTRL + C to exit
 </tbody>
 </table>
 <p>Loading the standard library into the current environment:</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-lisp" data-lang="lisp"><span style="color:#75715e">; Script mode</span>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-lisp" data-lang="lisp"><span style="color:#75715e">; Script mode</span>
 (<span style="color:#a6e22e">load</span> <span style="color:#e6db74">&#34;/usr/bin/stdlib.bsf&#34;</span>)
 
 <span style="color:#75715e">; Freely use stdlib functions now.</span>
 </code></pre></div><ul>
 <li>Shell mode</li>
 </ul>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-lisp" data-lang="lisp">&gt;&gt;&gt; <span style="color:#a6e22e">load</span> <span style="color:#e6db74">&#34;/usr/bin/stdlib.bsf&#34;</span>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-lisp" data-lang="lisp">&gt;&gt;&gt; <span style="color:#a6e22e">load</span> <span style="color:#e6db74">&#34;/usr/bin/stdlib.bsf&#34;</span>
 <span style="color:#75715e">; freely use stdlib in shell mode</span>
 </code></pre></div><h2 id="standard-library">Standard Library</h2>
 <p>The Lispy standard library is present in <code>/usr/bin</code> directory. It is named <code>stdlib.bsf</code> and it contains various definitions of useful functions. These functions are not a part of core <code>lispy</code> and lispy can very well function without these.</p>

@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/fonts.css">
+    
+    <title>icebarf</title>
+    <link rel="icon" type="image/png" href="/assets/img/favicon.ico" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
+        integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+    <script src="/js/dark.js" defer=""></script>
+
+</head>
+
+
+<html>
+<!DOCTYPE html>
+<html>
+
+<body>
+  <header class="site-header">
+
+    <div class="wrapper">
+      <a class="muted small" href="https://icebarf.github.io/">icebarf</a>
+    </div>
+  </header>
+</body>
+
+</html>
+
+<h1>Using CIMGUI</h1>
+<p class="post-meta"><time itemprop="datePublished">July 25, 2021</time>
+</p>
+<h1 id="compile-static">Compile (static)</h1>
+<ul>
+<li><code>make static</code></li>
+</ul>
+<p>Output will be present in current directory as <code>libcimgui.a</code></p>
+<p>Copy entire folder to wherever you wanna statically link then use the following commands in the compile command</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">-L ./cimgui -l:libcimgui.a
+</code></pre></div><h1 id="compile-shared-library">Compile (Shared Library)</h1>
+<ul>
+<li>make all</li>
+</ul>
+<p>Output will be present in current directory as <code>cimgui.so</code></p>
+<p>Copy entire folder to wherever  you want and then link using follwing:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">-L ./cimgui -lcimgui
+</code></pre></div><h2 id="using-in-c">Using in C</h2>
+<p>Define the following on top</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-c" data-lang="c"><span style="color:#75715e">#define CIMGUI_DEFINE_ENUMS_AND_STRUCTS
+</span><span style="color:#75715e">#include</span> <span style="color:#75715e">&#34;cimgui.h&#34;</span><span style="color:#75715e">
+</span></code></pre></div><p>Make sure you lead to the correct path to cimgui.h</p>
+<h1 id="read-more-at">Read more at</h1>
+<ul>
+<li><a href="https://github.com/cimgui/cimgui">cimgui github</a></li>
+</ul>
+
+
+<footer>
+    <div>
+        <h3><a href="https://icebarf.github.io/posts">Back to all posts</a></h3>
+    </div>
+    <hr>
+    <p>Go <a href="https://icebarf.github.io//index.xml">here</a> for an RSS feed.</p>
+</footer>
+
+</html>

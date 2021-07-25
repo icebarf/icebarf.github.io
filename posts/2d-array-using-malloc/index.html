@@ -38,16 +38,16 @@
 <p>In this case we&rsquo;re not gonna be using as quote-on-quote multidimensional arrays.
 We&rsquo;re gonna be using a pointer to an array and then Use the pointer offset &ldquo;like&rdquo;
 an array. Essentially what I am trying to get at is the follwing:</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-c" data-lang="c"><span style="color:#66d9ef">int</span> (<span style="color:#f92672">*</span>my_arr)[]
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-c" data-lang="c"><span style="color:#66d9ef">int</span> (<span style="color:#f92672">*</span>my_arr)[]
 </code></pre></div><p>This declares my array as a pointer to an array of integers.</p>
 <p>And to rid us of the confusion we&rsquo;re gonna use a <code>typedef</code> some <code>type</code> to
 <code>type[ARRAY]</code></p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-c" data-lang="c"><span style="color:#66d9ef">typedef</span> type type_array[LENGTH];
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-c" data-lang="c"><span style="color:#66d9ef">typedef</span> type type_array[LENGTH];
 </code></pre></div><p>The above syntax is basically declare <code>type_array</code> as an array of <code>type</code></p>
 <p>Here, type is any builtin type or a struct type or a typedef type  and LENGTH
 is the is the number of columns in the 2D array.</p>
 <p>An example for something without a typedef would be</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-c" data-lang="c"><span style="color:#66d9ef">int</span> (<span style="color:#f92672">*</span>ptr_to_arr_func ())[]{
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-c" data-lang="c"><span style="color:#66d9ef">int</span> (<span style="color:#f92672">*</span>ptr_to_arr_func ())[]{
     ...
 }
 </code></pre></div><p>This declaration translated to English would be:</p>
@@ -57,7 +57,7 @@ following code snippet, the declaration, <code>int_array *get_array()</code> wou
 translate to:</p>
 <p><code>Declare get_array as a function returning pointer int_array</code></p>
 <h4 id="snippet">Snippet</h4>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-c" data-lang="c"><span style="color:#75715e">#define LENGTH  50
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-c" data-lang="c"><span style="color:#75715e">#define LENGTH  50
 </span><span style="color:#75715e">#define WIDTH   50
 </span><span style="color:#75715e"></span>
 <span style="color:#66d9ef">typedef</span> <span style="color:#66d9ef">int</span> int_array[LENGTH];
@@ -80,7 +80,7 @@ memory allocated to it. You can use a for loop to set its element to zero
 or something. The first Subscript operator <code>[]</code> is actually the pointer offset
 and the second <code>[]</code> is the element of array.</p>
 <p>ex:</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-c" data-lang="c"><span style="color:#66d9ef">for</span>(<span style="color:#66d9ef">int</span> i <span style="color:#f92672">=</span> <span style="color:#ae81ff">0</span>; i <span style="color:#f92672">&lt;</span> LENGTH; i<span style="color:#f92672">++</span>){
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-c" data-lang="c"><span style="color:#66d9ef">for</span>(<span style="color:#66d9ef">int</span> i <span style="color:#f92672">=</span> <span style="color:#ae81ff">0</span>; i <span style="color:#f92672">&lt;</span> LENGTH; i<span style="color:#f92672">++</span>){
     <span style="color:#66d9ef">for</span>(<span style="color:#66d9ef">int</span> j <span style="color:#f92672">=</span> <span style="color:#ae81ff">0</span>; j <span style="color:#f92672">&lt;</span> WIDTH; j<span style="color:#f92672">++</span>){
         my_2d_arr[i][j] <span style="color:#f92672">=</span> SOME_VAL;
     }

@@ -6,7 +6,20 @@
     <description>Recent content in posts on My website</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 01 Jul 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://icebarf.github.io/tags/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 25 Jul 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://icebarf.github.io/tags/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Using CIMGUI</title>
+      <link>https://icebarf.github.io/posts/cimgui_use/</link>
+      <pubDate>Sun, 25 Jul 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://icebarf.github.io/posts/cimgui_use/</guid>
+      <description>Compile (static)  make static  Output will be present in current directory as libcimgui.a
+Copy entire folder to wherever you wanna statically link then use the following commands in the compile command
+-L ./cimgui -l:libcimgui.a Compile (Shared Library)  make all  Output will be present in current directory as cimgui.so
+Copy entire folder to wherever you want and then link using follwing:
+-L ./cimgui -lcimgui Using in C Define the following on top</description>
+    </item>
+    
     <item>
       <title>Implementing CDECL</title>
       <link>https://icebarf.github.io/posts/incomplete-implementation-cdecl/</link>

@@ -43,7 +43,7 @@ out.</p>
 Standard specified a translation limit on how big a source line can be, that is
 509 Lines. We&rsquo;re gonna use 510 as the limit of out input string. So something
 like:</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-c" data-lang="c"><span style="color:#75715e">#define     510     MAXINPUTLEN
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-c" data-lang="c"><span style="color:#75715e">#define     510     MAXINPUTLEN
 </span></code></pre></div><h2 id="tokenizing-the-input">Tokenizing the input</h2>
 <p>Let&rsquo;s separate/tokenize it into the following</p>
 <ul>
@@ -62,7 +62,7 @@ to process them. Before processing, we need to lay down a few rules on how to
 read a declaration, I&rsquo;ve read these rules from the book <strong>Expert C Programming</strong></p>
 <h2 id="reading-declarations">Reading declarations</h2>
 <p>A dummy declaration:</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-c" data-lang="c"><span style="color:#66d9ef">char</span> <span style="color:#f92672">*</span>(<span style="color:#f92672">*</span>arr (<span style="color:#66d9ef">int</span> <span style="color:#f92672">*</span>size, <span style="color:#66d9ef">char</span> <span style="color:#f92672">*</span>ptr_to) ) []
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-c" data-lang="c"><span style="color:#66d9ef">char</span> <span style="color:#f92672">*</span>(<span style="color:#f92672">*</span>arr (<span style="color:#66d9ef">int</span> <span style="color:#f92672">*</span>size, <span style="color:#66d9ef">char</span> <span style="color:#f92672">*</span>ptr_to) ) []
 </code></pre></div><ol>
 <li>
 <p>First start reading from left and find the first identifier.
@@ -100,7 +100,7 @@ a <code>)</code> closing bracket, which means it is an enclosue and we must matc
 </li>
 </ol>
 <p><strong>Declaration again</strong></p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-c" data-lang="c"><span style="color:#66d9ef">char</span> <span style="color:#f92672">*</span>(<span style="color:#f92672">*</span>arr (<span style="color:#66d9ef">int</span> <span style="color:#f92672">*</span>size, <span style="color:#66d9ef">char</span> <span style="color:#f92672">*</span>ptr_to) ) []
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-c" data-lang="c"><span style="color:#66d9ef">char</span> <span style="color:#f92672">*</span>(<span style="color:#f92672">*</span>arr (<span style="color:#66d9ef">int</span> <span style="color:#f92672">*</span>size, <span style="color:#66d9ef">char</span> <span style="color:#f92672">*</span>ptr_to) ) []
 </code></pre></div><ol start="5">
 <li>
 <p>After this now we move to the right again and find a <code>[]</code> which means it is

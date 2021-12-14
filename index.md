@@ -9,3 +9,5 @@ I am a C programmer and I love to do low level stuff. Here's what I've worked on
 - [Augustus - A Discord Bot written in C](https://github.com/icebarf/Augustus)
 
 Currently working on a compiler for a toy/esoteric language called [WISE](https://github.com/icebarf/wise-compiler).
+
+Updated on - 14 Decemeber 2021 - 19:31

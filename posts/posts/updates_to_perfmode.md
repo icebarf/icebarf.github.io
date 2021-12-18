@@ -7,14 +7,23 @@ life situations - I have not been able to provide updates as much.
 That is why I have planned a few updates to the codebase and the functionality
 of perfmode itself.
 
-## version - 2.1.1
+## version - 3.1.1
 
 This version will contain mostly bug fixes and changes to codebase. No major
 features will be added.
 
-> Changelog will be added here as soon as the update is released.
+**Update - 18 December 2021 - 21:02:50**
 
-## version - 2.2.1
+Changelog:
+
+- Remove `gtk4` as a dependency
+- Remove gui in support for future release
+- FIX! - when no argument was passed along `perfmode -l` program would segfault
+- replace internal data structures - from macros to arrays and enums
+
+**Full Changelog**: https://github.com/icebarf/perfmode/compare/2.1.0...3.1.1
+
+## version - 3.2.1
 
 This version gets updates regarding the faustus module. Earlier versions of 
 perfmode added support for faustus - mainly regarding the boosts/fan control.

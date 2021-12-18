@@ -9,6 +9,10 @@
 - [pepe.gif](./pepe.gif)
 - [programming.gif](./programming.gif)
 - [catwoman_shocked.mp4](./catwoman_shocked.mp4)
+- DWM Rice
+    1. [Terminals](./1639807811.png)
+    2. [Desktop](./1639807816.png)
+    3. [Wallpaper](./mountains.png)
 
 ## Documentation
 

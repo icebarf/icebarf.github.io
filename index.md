@@ -11,13 +11,13 @@ that I think will benefit others.
 
 **Latest posts:**
 
-- 18 Decemeber 2021 - [Updates to perfmode](./posts/posts/updates_to_perfmode.html)
+- [Updates to perfmode](./posts/posts/updates_to_perfmode.html) - 18 Decemeber 2021 
 
 ## Ongoing projects
 
--[Wise Compiler](https://github.com/icebarf/wise-compiler) - This is a compiler for toy language called WISE. WIP.
+- [Wise Compiler](https://github.com/icebarf/wise-compiler) - This is a compiler for toy language called WISE. WIP.
 
--[perfmode](https://github.com/icebarf/perfmode) - A Performance and LED backlight management utility for ASUS TUF Gaming Series Laptops.
+- [perfmode](https://github.com/icebarf/perfmode) - A Performance and LED backlight management utility for ASUS TUF Gaming Series Laptops.
 
 ## other projects
 

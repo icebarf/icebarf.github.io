@@ -23,6 +23,17 @@ Changelog:
 
 **Full Changelog**: https://github.com/icebarf/perfmode/compare/2.1.0...3.1.1
 
+## version - 3.1.2
+
+This version fixes the bad codebase release plus additional cleanup to codebase.
+
+Changelog:
+
+- Fix bad code from previous release
+- Better error reporting
+- Troubleshooting guide updated on github
+- Cleaner code comments
+
 ## version - 3.2.1
 
 This version gets updates regarding the faustus module. Earlier versions of 

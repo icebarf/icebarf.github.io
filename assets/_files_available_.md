@@ -13,6 +13,7 @@
     1. [Terminals](./1639807811.png)
     2. [Desktop](./1639807816.png)
     3. [Wallpaper](./mountains.png)
+    4. [Terminals - Blur](./blur_screenshot.png)
 
 ## Documentation
 

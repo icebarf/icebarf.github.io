@@ -13,7 +13,7 @@
 
 ## Gaming
 - [catwoman_shocked.mp4](./catwoman_shocked.mp4)
-- [leech_seed_hp_restore.m4v](./leech_seed_hp_restore.m4v)
+- [leech_seed_hp_restore.mp4](./leech_seed_hp_restore.mp4)
 
 - DWM Rice
     1. [Terminals](./1639807811.png)

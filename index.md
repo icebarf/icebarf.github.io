@@ -13,6 +13,9 @@ that I think will benefit others.
 
 - [Updates to perfmode](./posts/posts/updates_to_perfmode.html) - 18 Decemeber 2021 
 
+Updated on 25 December 2021
+
+
 ## Ongoing projects
 
 - [Wise Compiler](https://github.com/icebarf/wise-compiler) - This is a compiler for toy language called WISE. WIP.
@@ -27,4 +30,4 @@ that I think will benefit others.
 
 - [lispy](https://github.com/icebarf/lispy) - A lisp implementation in C - from the book called [BuildYourOwnLisp](https://buildyourownlisp.com/).
 
-### Updated on - 18 Decemeber 2021 - 18:13:30
+### Updated on - 25 Decemeber 2021 - 22:28:45

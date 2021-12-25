@@ -27,6 +27,8 @@ Changelog:
 
 This version fixes the bad codebase release plus additional cleanup to codebase.
 
+**Updated on 20 December 2021 - sometime around evening**
+
 Changelog:
 
 - Fix bad code from previous release
@@ -34,7 +36,7 @@ Changelog:
 - Troubleshooting guide updated on github
 - Cleaner code comments
 
-## version - 3.2.1
+## version - 3.2.2
 
 This version gets updates regarding the faustus module. Earlier versions of 
 perfmode added support for faustus - mainly regarding the boosts/fan control.
@@ -42,9 +44,14 @@ perfmode added support for faustus - mainly regarding the boosts/fan control.
 LED Backlight Control was available for the asus/default module only. But now 
 this updated will add support for it.
 
-> Changelog will be added here as soon as the update is released.
+**Updated on 25 December 2021 - 22:27:05**
 
-## version - 3.2.1
+Changelog:
+
+Rewrite whole thing, fixes bugs, better error reporting, very clean 
+code-base compared to previous one.
+
+## version - 4.2.1
 
 This version will **possibly** have a GUI Rewrite. In previous versions
 GUI was made with the GTK Toolchain. I do not wish to be dependent on this

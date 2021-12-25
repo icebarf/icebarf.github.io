@@ -36,7 +36,7 @@ Changelog:
 - Troubleshooting guide updated on github
 - Cleaner code comments
 
-## version - 3.2.2
+## version - 3.2.3
 
 This version gets updates regarding the faustus module. Earlier versions of 
 perfmode added support for faustus - mainly regarding the boosts/fan control.
@@ -51,7 +51,9 @@ Changelog:
 Rewrite whole thing, fixes bugs, better error reporting, very clean 
 code-base compared to previous one.
 
-## version - 4.2.1
+Fix bug in makefile - release for AUR
+
+## version - 4.2.3
 
 This version will **possibly** have a GUI Rewrite. In previous versions
 GUI was made with the GTK Toolchain. I do not wish to be dependent on this

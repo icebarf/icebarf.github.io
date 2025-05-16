@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Programming on icebarf&#39;s lair</title>
+    <link>http://localhost:37551/categories/programming/</link>
+    <description>Recent content in Programming on icebarf&#39;s lair</description>
+    <generator>Hugo</generator>
+    <language>en-US</language>
+    <lastBuildDate>Fri, 17 Feb 2023 09:07:45 +0530</lastBuildDate>
+    <atom:link href="http://localhost:37551/categories/programming/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>FILE seek-ing routine details</title>
+      <link>http://localhost:37551/programming/file-seeking-details/</link>
+      <pubDate>Fri, 17 Feb 2023 09:07:45 +0530</pubDate>
+      <guid>http://localhost:37551/programming/file-seeking-details/</guid>
+      <description>&lt;h2 id=&#34;the-case-of-a-few-bytes&#34;&gt;The case of a few bytes&lt;/h2&gt;&#xA;&lt;p&gt;I&amp;rsquo;ve been working on a small hobby project/program of mine. It implements image rotation&#xA;by some angle (in degrees). It&amp;rsquo;s an exercise in Igor Zhirkov&amp;rsquo;s book where the reader is to&#xA;use bitmap format to write back the rotated image, the input is also expected to be a bitmap image.&lt;/p&gt;&#xA;&lt;p&gt;Anyhow, the bitmap &lt;a href=&#34;#bitmap-file-header&#34;&gt;file header&lt;/a&gt; begins with a 2 byte&#xA;number that identifies the BMP and DIB header. It is &lt;strong&gt;commonly&lt;/strong&gt; &lt;code&gt;0x424d&lt;/code&gt; (&lt;code&gt;BM&lt;/code&gt; in ascii, &lt;code&gt;0x4d42&lt;/code&gt; in little endian,&#xA;how it shall appear on my machine and probably yours as well.)&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

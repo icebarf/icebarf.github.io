@@ -1,0 +1,61 @@
+## My configuration
+baseURL = 'https://rdseed.in'
+languageCode = 'en-US'
+hasCJKLanguages = true
+title = "icebarf's lair"
+
+# Language related things
+defaultContentLanguage = 'en'
+
+[module]
+  [[module.mounts]]
+    source = 'content'
+    target = 'content'
+  [[module.mounts]]
+    source = '/home/ice/Documents/rdseed.in/content'
+    target = 'content'
+  [[module.mounts]]
+    source = 'static'
+    target = 'static'
+  [[module.mounts]]
+    source = '/home/ice/Documents/rdseed.in/static'
+    target = 'static'
+  [module.hugoVersion]
+    extended = true
+    min      = "0.41.0"
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.parser]
+      [markup.goldmark.parser.attribute]
+        block = true
+        title = true
+
+  [markup.highlight]
+    anchorLineNos      = false
+    codeFences         = true
+    guessSyntax        = false
+    hl_Lines           = ''
+    hl_inline          = false
+    lineAnchors        = ''
+    lineNoStart        = 1
+    lineNos            = false
+    lineNumbersInTable = true
+    noClasses          = true
+    noHl               = false
+    style              = 'rrt'
+    tabWidth           = 2
+
+  [markup.tableOfContents]
+    startLevel = 2
+    endLevel   = 3
+    ordered    = false
+
+[params]
+favicon = 'favicon.ico'
+  [params.theme_config]
+    appearance        = "auto"
+    back_home_text    = "家"
+    date_format       = "2006-01-02"
+    isListGroupByDate = false
+    isShowFooter      = true

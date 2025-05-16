@@ -1,0 +1,63 @@
+#[[entries]]
+#title = "info"
+
+#  [[entries.entries]]
+#  title = "a (nearly) no-CSS, fast, minimalist Hugo theme ported from <a href='https://github.com/riggraz/no-style-please'>riggraz/no-style-please</a>."
+
+#  [[entries.entries]]
+#  title = "github repo"
+#  url = "https://github.com/hanwenguo/hugo-theme-nostyleplease"
+
+
+#[[entries]]
+#title = "content"
+
+#  [entries.post_list]
+#  limit = 5
+#  show_more = true
+#  show_more_text = "See archive..."
+#  show_more_url = "posts"
+
+[[entries]]
+title = "self"
+  [entries.post_list]
+  section = "self"
+  show_more = true
+  show_more_text = "See more posts..."
+  show_more_url = "self"
+
+[[entries]]
+title = "programming"
+
+  [entries.post_list]
+  section = "programming"
+  show_more = true
+  show_more_text = "See more posts..."
+  show_more_url = "programming"
+
+[[entries]]
+title = "image gallery"
+url = "picturaleia/gallery"
+
+[[entries]]
+title = "rss feed"
+url = "index.xml"
+
+#[[entries]]
+#title = "another list"
+
+#  [[entries.entries]]
+#  title = "with subitems"
+
+#    [[entries.entries.entries]]
+#    title = "with subsubitems"
+
+#    [[entries.entries.entries]]
+#    title = "example page"
+#    url = "about"
+
+#[[entries]]
+#title = "PRO TIP"
+#entries = [
+#   { title = "to edit this menu, edit data/menu.toml file" }
+#  ]

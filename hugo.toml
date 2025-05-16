@@ -1,4 +1,4 @@
-## My configuration
+# My configuration
 baseURL = 'https://rdseed.in'
 languageCode = 'en-US'
 hasCJKLanguages = true
@@ -6,6 +6,10 @@ title = "icebarf's lair"
 
 # Language related things
 defaultContentLanguage = 'en'
+
+[caches]
+  [caches.images]
+    dir = ':cacheDir/images'
 
 [module]
   [[module.mounts]]

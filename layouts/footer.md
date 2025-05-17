@@ -4,4 +4,4 @@
 
 Amrit Handa
 
-[icebarf@rdseed.in](mailto:icebarf@rdseed.in)
+[icebarf@rdseed.in](mailto:icebarf@rdseed.in) | [rss feed](index.xml)

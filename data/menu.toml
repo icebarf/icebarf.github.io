@@ -36,12 +36,13 @@ title = "programming"
   show_more_url = "programming"
 
 [[entries]]
-title = "image gallery"
-url = "picturaleia/gallery"
+title = "resume"
+url = "documents/cv.pdf"
+
 
 [[entries]]
-title = "rss feed"
-url = "index.xml"
+title = "image gallery"
+url = "picturaleia/gallery"
 
 #[[entries]]
 #title = "another list"

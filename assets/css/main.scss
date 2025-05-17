@@ -8,7 +8,10 @@
   src: url('/fonts/InconsolataGoNerdFont-Regular.ttf') format('truetype');
 }
 
-//@import url('https://fonts.googleapis.com/css2?family=Zen+Old+Mincho:wght@400;700;900&display=swap');
+@font-face {
+  font-family: 'Source Code Pro';
+  src: url('/fonts/SourceCodePro-Regular.otf') format('opentype');
+}
 
 // -------------- THEME SWITCHER -------------- //
 @mixin theme($--bg-color, $--primary-text-color, $--secondary-text-color, $--link-color, $--visited-link-color, $--highlight) {
@@ -63,12 +66,20 @@
   }
 }
 
+// @mixin dark-appearance {
+//   @include theme(#000000, #ffffff, #000000, #79a8ff, #f78fe7, #2f3849); // modus-vivendi
+// }
+
+// @mixin light-appearance {
+//   @include theme(#ffffff, #000000, #595959, #3548cf, #8f0075, #dae5ec); // modus-operandi
+// }
+//@mixin theme($--bg-color, $--primary-text-color, $--secondary-text-color, $--link-color, $--visited-link-color, $--highlight) {
 @mixin dark-appearance {
-  @include theme(#000000, #ffffff, #000000, #79a8ff, #f78fe7, #2f3849); // modus-vivendi
+  @include theme(#232A2E, #D3C6AA, #2D353B, #7FBBB3,  #D699B6, #DBBC7F); // everforest-dark-hard
 }
 
 @mixin light-appearance {
-  @include theme(#ffffff, #000000, #595959, #3548cf, #8f0075, #dae5ec); // modus-operandi
+  @include theme(#f3ead3, #5c6a72, #708089, #3a94c5, #df69ba, #dfa000); // everforest-light-hard
 }
 
 body[a="dark"] { @include dark-appearance; }
@@ -87,7 +98,7 @@ body[a="light"] { @include light-appearance; }
 html { height: 100%; }
 
 body {
-  font-family: 'InconsolataGo Nerd Font', 'Zen Old Mincho', monospace;
+  font-family: 'InconsolataGo Nerd Font', 'Zen Old Mincho', 'Source Code Pro';
   font-size: 18px;
   line-height: 1.4;
   margin: 0;
@@ -132,6 +143,7 @@ code {
   -ms-text-size-adjust: 100%;
   -moz-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
+  font-family: 'InconsolataGo Nerd Font';
 }
 
 code:not(pre > code) {

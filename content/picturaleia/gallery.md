@@ -12,6 +12,7 @@ Apps and devices I use to take photos.
 
 **Post Processing**: Google Snapseed, VSCO, Adobe Lightroom
 
+
 # Images
 
 ![](/photos/photo_khet_landscape.jpeg)
@@ -19,10 +20,6 @@ Apps and devices I use to take photos.
 ***
 
 ![](/photos/photo_maame.jpeg)
-
-***
-
-![](/photos/photo_moon_night_1.jpeg)
 
 ***
 
@@ -39,3 +36,7 @@ Apps and devices I use to take photos.
 ***
 
 ![](/photos/photo_uni_parking.jpeg)
+
+***
+
+More pictures that don't fit the bill for the main gallery - [Extra Gallery](/picturaleia/extra_gallery/)

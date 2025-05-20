@@ -1,0 +1,2 @@
+{{ replaceRE `\[([^\]]*)\]{([^\}]*)}` `<ruby lang="ja">$1<rp>(</rp><rt>$2</rt><rp>)</rp></ruby>` .Content | safeHTML }}
+<!--https://blog.elnu.com/2022/01/furigana-in-markdown-using-regular-expressions/-->

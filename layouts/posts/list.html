@@ -2,7 +2,7 @@
 
 <h1>{{ .Title }}</h1>
 
-{{ .Content }}
+{{ partial "japanese_furigana.html" . }}
 
 <!-- divide post list by year  -->
 {{ if  .Site.Params.theme_config.isListGroupByDate  }}

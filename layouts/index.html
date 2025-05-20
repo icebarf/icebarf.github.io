@@ -6,7 +6,7 @@
         <p>{{ $.Site.Params.description }}</p>
     {{- end -}}
 </header>
-{{ .Content }}
+{{ partial "japanese_furigana.html" . }}
 {{ partial "menu_item.html" (dict "context" . "collection" $.Site.Data.menu.entries) }}
 
 {{ end }}

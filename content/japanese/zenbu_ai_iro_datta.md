@@ -12,7 +12,7 @@ To give you the premise, it's set in a school with the characters being
 in their mid teens.
 
 The story's mostly from the perspective of the female lead [透花]{とうか}.
-She meets a new [転校生]{てんこうせ} called [藍]{あい} who seems to be having some
+She meets a new [転校生]{てんこうせい} called [藍]{あい} who seems to be having some
 memory troubles.
 It's mostly a teenage romance thing with an unexpected genre twist after the middle chapters.
 The story didn't feel as *boring* as I expected it to be due to the troupey nature.

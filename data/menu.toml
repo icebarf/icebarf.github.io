@@ -27,6 +27,15 @@ title = "self"
   show_more_url = "self"
 
 [[entries]]
+title = "japanese"
+
+  [entries.post_list]
+  section = "japanese"
+  show_more = true
+  show_more_text = "See more posts..."
+  show_more_url = "japanese"
+
+[[entries]]
 title = "programming"
 
   [entries.post_list]

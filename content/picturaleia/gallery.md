@@ -51,4 +51,12 @@ Apps and devices I use to take photos.
 
 ***
 
+![](/photos/photo_aerial_tsunami_0.png)
+
+***
+
+![](/photos/photo_gods_balls.jpg)
+
+***
+
 More pictures that don't fit the bill for the main gallery - [Extra Gallery](/picturaleia/extra_gallery/)

@@ -53,9 +53,9 @@ It is a very short book — 42k 文字.
 
 ## Details 
 > Date Finished: 30 April 2025
-
-> Average Reading speed: ~5k文字/hr (varied throughout the book).
-
-> Time taken: 07 Hours 23 Minutes (includes some lookups).
-
+>
+> Average Reading speed: ~5k文字/hr (variable).
+>
+> Time taken: 07 Hours 23 Minutes
+>
 > Average Chapter Length: 4-6k文字.

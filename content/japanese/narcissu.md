@@ -77,30 +77,6 @@ Around the end, I could feel how the characters had been holding back
 all their emotions inside throughout the previous chapters, they truly
 hit hard if you read part 2 before part 1 because you know セツミ's background.
 
-## Conclusion
-
-People had made it out be some extremely depressive story that you take months to
-recover from but I didn't feel any of that. I genuinely appreciated the characters.
-It is truly saddening how their futures had basically been robbed, but it didn't
-cause them to fall into some pit of dispair. The stories are very human, and I can see how some people 
-can truly be affected by it.
-
-Part of the reason I am not as emotionally drained is likely because of my low
-japanese skill. While I comprehended most of the story just fine, including dialogue.
-There were some moments where I was rather lost because I couldn't put the grammar 
-structure together. I ended up whitenoising those things.
-
-My understanding of the emotional baggage held by the words is not there yet either.
-This definitely played some role, however I am unsure to what degree it could prevent
-me from grasping the larger narrative.
-
-## Character Interactions
-
-[Discuss how you felt when characters interacted with each other]
-
-
-[Things like idk how they felt, behaved etc]nexpectedly quick and dejecting.
-
 ## Learner's perspective
 
 Uses a lot of kanji for common kana words e.g 只、但し、貰う、居る、在る、暫く、筈、僅か, 等.
@@ -133,6 +109,24 @@ Common examples that stood out the most to me were these:
 There's a lot more, usually with a specific meaning instead of the commonly known kanji word having
 multiple meanings.
 I think this should definitely be recommended to someone who's read some material before.
+
+## Conclusion
+
+People had made it out be some extremely depressive story that you take months to
+recover from but I didn't feel any of that. I genuinely appreciated the characters.
+It is truly saddening how their futures had basically been robbed, but it didn't
+cause them to fall into some pit of dispair. The stories are very human, and I can see how some people 
+can truly be affected by it.
+
+Part of the reason I am not as emotionally drained is likely because of my low
+japanese skill. While I comprehended most of the story just fine, including dialogue.
+There were some moments where I was rather lost because I couldn't put the grammar 
+structure together. I ended up whitenoising those things.
+
+My understanding of the emotional baggage held by the words is not there yet either.
+This definitely played some role, however I am unsure to what degree it could prevent
+me from grasping the larger narrative.
+
 
 ## Details
 > Data Finished: 「28 May 2025」

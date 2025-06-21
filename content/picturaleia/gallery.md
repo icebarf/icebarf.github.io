@@ -59,4 +59,8 @@ Apps and devices I use to take photos.
 
 ***
 
+![](/photos/photo_cloudies.jpg)
+
+***
+
 More pictures that don't fit the bill for the main gallery - [Extra Gallery](/picturaleia/extra_gallery/)

@@ -11,3 +11,7 @@ page for all of them!
 ***
 
 ![](/photos/photo_moon_night_1.jpeg)
+
+***
+
+![](/photos/photo_houses_nice.jpg)

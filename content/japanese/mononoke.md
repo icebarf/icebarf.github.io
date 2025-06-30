@@ -1,7 +1,7 @@
 ---
 title: "モノノ怪"
 date: 2025-06-30T21:04:16+05:30
-draft: true
+draft: false
 ---
 
 ![](/content-media/mononoke/home.jpg)

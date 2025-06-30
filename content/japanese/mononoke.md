@@ -24,3 +24,4 @@ exactly understand what it is—current guess is that it's a もののけ. Or ra
 the [薬売り]{くすりうり} is part-mononoke.
 
 I think you should absolutely give it a try, as it's a very unique anime.
+It's very accessible, even if you're a little バカ人.

@@ -2,6 +2,8 @@
 title: "Documentation: Troubleshooting errors during dGPU passthrough"
 date: 2025-07-29T02:55:26+05:30
 draft: false
+toc: true
+tocBorder: true
 ---
 
 All of this information is mostly in context to libvirtd, virt manager, windows dgpu passthrough
@@ -20,7 +22,7 @@ Restart `libvirtd.service`.
 
 Also, will need to setup Custom DNS in windows or whatever OS in VM after installing Ethernet drivers if doing NAT.
 
-Reason: dnscrypt-proxy takes up port 54, dnsmasq used by libvirt also uses that port by default.
+Reason: dnscrypt-proxy takes up port 53, dnsmasq used by libvirt also uses that port by default.
 Since we dont need DNS, we just turn it off and manually setup in the VM os.
 
 ## XML Editing

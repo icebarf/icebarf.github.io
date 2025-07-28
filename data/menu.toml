@@ -45,6 +45,15 @@ title = "programming"
   show_more_url = "programming"
 
 [[entries]]
+title = "random"
+
+  [entries.post_list]
+  section = "random"
+  show_more = true
+  show_more_text = "See more posts..."
+  show_more_url = "random"
+
+[[entries]]
 title = "image gallery"
 url = "picturaleia/gallery"
 

@@ -20,6 +20,9 @@ Restart `libvirtd.service`.
 
 Also, will need to setup Custom DNS in windows or whatever OS in VM after installing Ethernet drivers if doing NAT.
 
+Reason: dnscrypt-proxy takes up port 54, dnsmasq used by libvirt also uses that port by default.
+Since we dont need DNS, we just turn it off and manually setup in the VM os.
+
 ## XML Editing
 
 Some changes that I edited into the XML configuration, after clicking apply—would straight up vanish.

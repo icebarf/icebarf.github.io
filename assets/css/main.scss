@@ -105,6 +105,22 @@ body {
   margin: 0;
   min-height: 100%;
   overflow-wrap: break-word;
+  &::before {
+    content: "";
+    position: fixed;
+    inset: 0;
+    z-index: -1;
+
+    background-image: 
+      linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)), 
+      url("/website-background-animated.gif");
+
+    background-size: cover;
+    background-position: center;
+
+    filter: blur(12px);
+    transform: scale(1.05); // prevents blur edges
+  }
 }
 
 h2, h3, h4, h5, h6 { margin-top: 1.5rem; }

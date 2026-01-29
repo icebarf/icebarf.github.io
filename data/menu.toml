@@ -45,13 +45,13 @@ title = "programming"
   show_more_url = "programming"
 
 [[entries]]
-title = "random"
+title = "tech"
 
   [entries.post_list]
-  section = "random"
+  section = "tech"
   show_more = true
   show_more_text = "See more posts..."
-  show_more_url = "random"
+  show_more_url = "tech"
 
 [[entries]]
 title = "image gallery"

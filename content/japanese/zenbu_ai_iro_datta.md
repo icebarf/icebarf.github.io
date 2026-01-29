@@ -2,6 +2,8 @@
 title: "「ぜんぶ、藍色だった」の感想"
 date: 2025-05-20T10:41:32+05:30
 draft: false
+toc: true
+tocBorder: true
 ---
 
 ## Thoughts

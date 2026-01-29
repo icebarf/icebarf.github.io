@@ -2,6 +2,8 @@
 title: "ＨＥＬＬＳＩＮＧ：ＵＬＴＩＭＡＴＥ"
 date: 2025-07-17T12:35:22+05:30
 draft: false
+toc: true
+tocBorder: true
 ---
 
 ![hellsing ultimate cover](/content-media/hellsing_ultimate/hellsing_ultimate_cover_full.png)

@@ -2,6 +2,8 @@
 title: "７０億の針"
 date: 2025-06-10T22:21:39+05:30
 draft: false
+toc: true
+tocBorder: true
 ---
 
 A really short sci-fi manga that dives into the human heart.

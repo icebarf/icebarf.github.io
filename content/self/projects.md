@@ -1,12 +1,12 @@
 ---
-title: "Portfolio"
+title: "Projects"
 date: 2025-05-16T22:52:43+05:30
 draft: false
 toc: true
 tocBorder: true
 ---
 
-## Open Source
+## Open Source Contributions
 
 1. GNU Emacs (Code Editor)
     - Fix bug where extraction of compressed elisp code failed when using pigz

@@ -1,12 +1,15 @@
 ---
 title: "Homelab"
 date: 2026-02-18T16:18:52+05:30
-draft: true
+# draft: true
+_build:
+  render: "always"
+  list: "never"
 toc: true
 tocBorder: true
 ---
 
-# Introduction
+## Overview
 
 This is an overview for my homelab, vps setup along with documentation for services
 I provide myself, my friends and family.
@@ -81,6 +84,19 @@ This is a secondary VPS, it has AMD based Compute VMs with 2 OCPU, 1 GB RAM, 50G
 
 Currently, it is used for:
 - [uptime-kuma](https://github.com/louislam/uptime-kuma) - Status page and health check for exposed services on the other VPS
+
+## Services
+
+While I planned for many services as stated in [#overview](#overview). I only wish to
+state the ones I've setup, working, and are exposed to the internet, in this section. The future plans are in the
+[later plans section].
+
+1. [Tuwunel](https://matrix.rdseed.in) - Matrix Homeserver
+2. [Jellyfin](https://jellyfin.rdseed.in) - Media Server System
+3. [Jellyseerr](https://seer.rdseed.in) - Media Requests Manager
+4. [Copyparty](https://party.rdseed.in) - File Server
+5. [Blocky DNS](https://dns.rdseed.in) - DNS Proxy
+
 
 # References
 [^1]: https://docs.oracle.com/en-us/iaas/Content/FreeTier/freetier_topic-Always_Free_Resources.htm#freetier_topic_Always_Free_Resources_Outbound_Data_Transfer

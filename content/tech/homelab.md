@@ -11,14 +11,13 @@ tocBorder: true
 
 ## Overview
 
-This is an overview for my homelab, vps setup along with documentation for services
-I provide myself, my friends and family.
-My primary goal in later 2025 shifted to being independent from many services I used
+This is an overview for my homelab, and vps setup along with documentation for services I host.
+My primary goal in late 2025 shifted to being independent from many services I used
 in my daily life. It included having a place to watch media at, file and photo backups,
 matrix homeserver, email, a git frontend etc.
-I realize that I cannot switch away from everything immediately, or the cost to setup
+I realize that I cannot switch away from everything immediately, and the cost to setup
 something like email would be very high, getting it through filters, blocklists and such.
-Therefore, I started with things simple to setup and use.
+Therefore, I started with simple to setup services.
 
 Before I could setup any services, I needed a machine that could act as my server. I needed
 consistent internet access, storage and backup power to be reliable.
@@ -41,15 +40,17 @@ A used Thinkpad T480 from 2018, relevant specifications:
 - WLAN: Intel Dual Band Wireless-AC 8265, Wi-Fi 2x2 802.11ac + Bluetooth 4.1, M.2 card
 - WWAN: Missing
 
-### Disks
+### Storage
 
-- WD Blue 1TB
-- WD Blue 2TB
-- Wav Link 12TB two disk drive bay
+- 512 GB SATA SSD
+- WD Blue 1TB HDD
+- WD Blue 2TB HDD
+- Wav Link 12TB two disk drive bay (I access the HDDs via this)
 
 ### Network
 
-- 200 Mbps Up and Down wireless link (Primary) (behind CG-NAT)
+- 200 Mbps Up and Down wireless link (behind CG-NAT) \[Primary\]
+- 4G Sim Card Dongle (USB) \[Backup\]
 
 ## VPS
 
@@ -98,7 +99,11 @@ state the ones I've setup, working, and are exposed to the internet, in this sec
 5. [Blocky DNS](https://dns.rdseed.in) - DNS Proxy
 
 
-# References
+## Architecture
+
+![homeserver vps architecture](/content-media/homelab/architecture.png)
+
+## References
 [^1]: https://docs.oracle.com/en-us/iaas/Content/FreeTier/freetier_topic-Always_Free_Resources.htm#freetier_topic_Always_Free_Resources_Outbound_Data_Transfer
 [^2]: https://www.oracle.com/in/cloud/free/
 [^3]: Setup with livekit, jwt and coturn as external TURN server, see: [tuwunel matrix RTC](https://matrix-construct.github.io/tuwunel/matrix_rtc.html) and [tuwunel TURN guide](https://matrix-construct.github.io/tuwunel/turn.html)

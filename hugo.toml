@@ -1,5 +1,5 @@
 # My configuration
-baseURL = 'https://rdseed.in'
+baseURL = 'https://icebarf.net'
 languageCode = 'en-US'
 hasCJKLanguages = true
 title = "icebarf's lair"

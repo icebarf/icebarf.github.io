@@ -170,11 +170,11 @@ in the nginx configuration that served the `rdseed.in` domain name.
 
 [dns.rdseed.in](https://dns.rdseed.in) - Provides DoT and DoH
 
-I run this DNS Proxy on my VPS with mappings for local devices. You may think this
+I run this DNS Proxy on my VPS with Domain:IP mappings for local devices. You may think this
 is extremely counter-intuitive, and you would be correct. My ISP has put me behind a CG-NAT
 and a locked down router. I can't even change my network-wide DNS, or have local network entries
 on the router because I change my DNS resolver per device due to the former issue. And the fact
-that I can't even entries in the first place. So I'm pretty much reliant on that.
+that I can't even add DNS entries on the router in the first place, I'm pretty much reliant on that.
 
 Now I could host this on my local machine and add relevant port mappings, but it would be
 too much of layering and latency that I gave up on the idea. If I get a better VPS, I might
@@ -216,7 +216,7 @@ considering future needs I'm hoping I could atleast go up-to atleast 8 TB on the
 ### VPS
 
 Oracle is a terrible VPS provider in terms of privacy, especially with its links to Israel and the CIA.
-Currently, only encrypted data passes through the VPS. Any VPS can still dump RAM and inspect the VPS as
+Currently, only encrypted data passes through the VPS. Any VPS provider can still dump RAM and inspect the VPS as
 they like. I plan on improving how services interface with each other on the VPS.
 
 ### Power

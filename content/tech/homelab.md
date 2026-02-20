@@ -1,10 +1,7 @@
 ---
 title: "Homelab"
 date: 2026-02-18T16:18:52+05:30
-# draft: true
-_build:
-  render: "always"
-  list: "never"
+draft: false
 toc: true
 tocBorder: true
 ---
@@ -211,7 +208,31 @@ would lose access. I plan on fixing this with its own dedicated supply but it is
 
 ## Future Plans
 
-[ to be written ]
+### Storage
+
+My home server currently only has 3.5TB storage. While this is more than enough for my current needs,
+considering future needs I'm hoping I could atleast go up-to atleast 8 TB on the minimum end.
+
+### VPS
+
+Oracle is a terrible VPS provider in terms of privacy, especially with its links to Israel and the CIA.
+Currently, only encrypted data passes through the VPS. Any VPS can still dump RAM and inspect the VPS as
+they like. I plan on improving how services interface with each other on the VPS.
+
+### Power
+
+My thinkpad, disks, and router are currently backed with an Inverter and Battery. But the battery, serves
+my entire house and not just my hardware. I plan adding dedicated battery backup, either using an expensive
+UPS or buying a small battery and re-purposing an old inverter.
+
+### Internet
+
+The thinkpad just connects to my router via a dedicated 5GHz SSID and serves things. I also have a 
+4G Sim Card USB Dongle connected the laptop, to serve as backup internet. The sim card network has limited
+bandwidth and volume compared to my fiber optic connection, but it serves as a last resort.
+I'm hoping I can write a script that seamlessly switches between the two networks. Currently, I just rely
+on NetworkManager automatically detecting and switching the network.
+
 
 [^1]: https://docs.oracle.com/en-us/iaas/Content/FreeTier/freetier_topic-Always_Free_Resources.htm#freetier_topic_Always_Free_Resources_Outbound_Data_Transfer
 [^2]: https://www.oracle.com/in/cloud/free/

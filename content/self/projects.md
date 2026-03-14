@@ -6,6 +6,10 @@ toc: true
 tocBorder: true
 ---
 
+## Resume
+- [Software Developer](/documents/resume.pdf)
+- [DevOps](/documents/resume-devops.pdf)
+
 ## Open Source Contributions
 
 1. GNU Emacs (Code Editor)

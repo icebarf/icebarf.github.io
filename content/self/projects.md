@@ -8,7 +8,7 @@ tocBorder: true
 
 ## Resume
 - [Software Developer](/documents/resume.pdf)
-- [DevOps](/documents/resume-devops.pdf)
+- [DevOps](/documents/resume_devops.pdf)
 
 ## Open Source Contributions
 

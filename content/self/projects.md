@@ -18,6 +18,11 @@ tocBorder: true
     - Bug caused due to using non-portable options for POSIX utilities
     - Commit: [9f3ff4](https://github.com/linrunner/TLP/commit/9f3ff4eacde047e08080849948e87e800f610890)
 
+3. [Homelab](/tech/homelab)
+    - Homeserver based on a Thinkpad based system with 2-drive storage bay
+    - Constant Battery based AC Backup, with a 200 Mbps Optical Fiber Link (4g based sim backup)
+    - Proxied behind Oracle ARM Ampere Instance via FRP (websockets and TLS), with monitoring at [Uptime Page](https://status.rdseed.in/status)
+
 ***
 
 ## Personal Projects

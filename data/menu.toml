@@ -28,12 +28,7 @@ title = "self"
 
 [[entries]]
 title = "emporium"
-
-  [entries.post_list]
-  section = "emporium"
-  show_more = true
-  show_more_text = "See more posts..."
-  show_more_url = "emporium"
+url = "emporium/"
 
 [[entries]]
 title = "japanese"

@@ -1,4 +1,4 @@
-#+TITLE: CH-02: Idealist-Materialist Dichotomy
+#+TITLE: Idealism in History and Society, Idealism and Materialsm
 #+AUTHOR: Ice
 #+DATE: 2026-04-19T09:53:54+05:30
 #+DRAFT: false
@@ -23,7 +23,7 @@ Idealism and its various forms have always prescribed to almost a dualistic natu
 
 These /ideas/ further alienate us from our material reality, and ourselves, placing us in the hands of this /other/, often morally superior reality and beings.
 
-** Key Points of Idealism and Materialism
+** Idealism and Materialism
 This section is the summarization of Idealistic and Materialistic teachings, I will keep it mostly literal as there is no value in summarizing a summary.
 
 #+ATTR_LATEX: :environment longtable :align |p{0.45\textwidth}|p{0.45\textwidth}|
@@ -35,9 +35,9 @@ This section is the summarization of Idealistic and Materialistic teachings, I w
 ** With Socialism
 This part in the chapter seems to be related to how many socialists prescribe to the view that simply changing the mind of the capitalist class (changing the idea of fairness and such) will somehow lead to social change, while completely ignoring that the reason the bourgeoise exist in the first place is that because they continue to ensure control over the means which cement their position itself. Workers having to realize that they do not need to soul-searching for work or /"Moral Rearmament"/ instead of asking for better conditions. Seizing the means of production is the easiest way to make it better for everyone.
 
-Idealism is a reactionary ideology that reinforces the views of the oppressing/dominating class in a society. They have a vested interest in keeping people believing that there is this hole that we fundamentally cannot know and thus it is better to leave things be. Materialism teaches us to in the working class, and the people. Learning our reality and chaning it instead of remaining still.
+Idealism is a reactionary ideology that reinforces the views of the oppressing/dominating class in a society. They have a vested interest in keeping people believing that there is this hole that we fundamentally cannot know and thus it is better to leave things be. Materialism teaches us to /believe/ in the working class, and the people. Learning our reality and changing it instead of remaining still.
 
 
 [fn:1]: https://en.wikipedia.org/wiki/Black_hole_information_paradox
-
 [fn:2]: What ACTUALLY happens at the Plank Length? -- https://www.youtube.com/watch?v=f3jhbui5Cqs 
+

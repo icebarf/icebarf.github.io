@@ -1,0 +1,48 @@
+#+TITLE: CH-01: Party Philosophy, Truth, Dialectical Materialism
+#+AUTHOR: Ice
+#+DATE: 2026-04-16T20:14:54+05:30
+#+DRAFT: false
+
+I began reading Maurice Cornforth's [[https://www.amazon.in/Diametrical-Materialism-Introduction-3-Volumes/dp/9350023407][/Dialectical Materialism--An Introduction/]] a few months back. After reading a couple or more chapters, I just put it on hold due to life's extringent circumstances. Now that I came around to reading it again, I realized I didn't retain much information. So this is my attempt at it. These document(s) primarily serve as my summary and thoughts on the text. The book is meant to be an introduction to Dialectical Materialism, containing three volumes.
+
+The first chapter gets your started on what it means to have a class philosophy, the nature of being close to an objective truth, and Dialectical Materialsm.
+
+Questioning the notion that philosophies are always supposed to be objective and non-partisan, and getting us closer to the truth, the whole idea, that of a /working class philosophy/ seems contradictory.
+
+The idea is, philosophers that work out the world outlook, are affected-by, and are part of a society's material effects. Societies have always consisted of classes. A philosopher's outlook and perception of the human being often reflects that of the society's, further--the philosopher belongs to a specific class in their society, and hence lived experiences being a part of a social class, contribute to their system. Hence, it representing their world and economical outlook, that is class philosophy.
+
+The nature of a philosophy is being close to an objective truth. I did not quite understand the initial part of the text where he discusses this. Especially, /"In reply to such objections, we may say that the working-class standpoint in philosophy is very far indeed from having no concern for truth."/
+
+I believe, what he essentially says here is, that these objections are invalid. Rephrasing the quoted sentence--/very far/ to /very close/, and /no concern/ to /concern/--the working class standpoint in philosophy is concerned with the objective truth and its nearness towards it. I do continue reading and the idea is explored further which confirms my in-head rephrasal, it's just that the sentence in the book, the way it is worded confused me very much. (I am not a native English speaker)
+
+My perspective on the shaping of class philosophies has changed just from this. I never deeply thought about why the current system is, as in how the exploitation of the working class is enforced socially. How the working class members themselves purport the ideas of the capitalists/exploiters. How, many just retort with the talking points of their own oppressors.
+
+The key I realize now is class consciousness, and class philosophy. A person without ideas that do not reflect their own material condition, will borrow them from somewhere, for if they do not have a method to critically analyze and think.
+
+** Theory and Class Philosophy
+
+It is typical, and often in the best interest of the oppressing class to have their philosophy be the dominant one in society. It reflects and dominates through the education system and through positions of power itself, through culture and media, shaping /tradition/. Author talks about how all exploiting classes have had to disguise their true position, one of exploitation, and appear as natural conclusions of society, and the human condition. This /disguising/ I believe is the precise mechanism which oppresses us all. For the oppressors, a god given right or a natural disposition to a certain belief is more acceptable to the average person,  than ~"Please keep being exploited while I fatten myself and others like me with riches"~.
+
+This is what I see around myself. This innate (almost having given-up) nature that is exhibited by people, that this is how things have always been and will continue to be, discounting every other system that may take place, for the better or worse (although, with the increasing Right Wing leanings of the people around me, I believe they'll happily take the boot). Remaining perfectly docile under the current system of power.
+
+This /borrowing/ of ideas from the exploiting classes is what keeps us under them. It is here, that the need for a class philosophy for the exploited class, the working-class, is shown the most. It is the *revolutionary* philosophy of the working-class people and party. But what is it...?
+
+Marx-Engels, and Lenin developed this theory. To summarize what I learned and concluded--It is the philosophy by which the working class can know, and be conscious of itself. It is the philosophy equipped by the working-class revolutionary party, which is the medium for weilding political power. For it is the vanguard of the working-class and the masses of people.
+
+A working-class party must be educated, and show education, leadership, and vision to the masses. It is must be equipped with /revolutionary theory/. How do we get this theory? Through Dialectical Materialism.
+
+** Dialectics and Materialism
+
+Now, when I began reading this book, I did not even understand what the word Dialectical meant. I did know about the existence of various similar words--Dialectics, Dialect etc. So the question in my mind formed, what are these three terms exactly, and are they related? The first chapter did not provide the meaning so I had to look it up myself.
+
+Reading Merriam Webbster[fn:1], I concluded:
+
+/"Delectics is the idea of exploration and investigation through the means of opposition and contradiction."/
+
+By equipping Materialism, which I understood to be a direct opposition of Idealism, i.e being only concerned with the material/factual condition of the subject of an investigation, its physicality and any invisible connections it forms with things, so as to say, the /facts/ around it.
+
+Thus, I will conclude from the chapter and the definition, Dialectical Materialism is the analysis of a subject matter through challenging of its facts, and conditions. Deriving conclusions only from the material state, dropping any and all idealist notions we may have (pre-)conceived.
+
+This is the philosophy that one must equip to analyze themselves, and their surroundings to derive natural conclusion to the state of things.
+
+[fn:1]: https://www.merriam-webster.com/dictionary/dialectic

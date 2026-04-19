@@ -1,0 +1,43 @@
+#+TITLE: CH-02: Idealist-Materialist Dichotomy
+#+AUTHOR: Ice
+#+DATE: 2026-04-19T09:53:54+05:30
+#+DRAFT: false
+
+Idealism is the philosophy that is described as which prioritizes or asserts the spiritual, the ideal to be the root cause of all things. It is the phiosophy in direct opposition to Materialism. These two philosophies are our tools for investigating, understanding and questioning a subject in two opposing way, and this is not applicable to some abstract concepts that we may try to understand. These two ideas as applicable to almost everything and anything that we choose to understand. Interestingly to me, the author quotes Engels on this, and makes the point that Idealism and Materialism should not be reduced to limiting terms, and that materialism historically has been defamed as the philosophy that only pertains to human vices, while Idealism is virtuous. This, he says, was done by priests and the general oppressing class. This shaping of moral attitudes on these philosophies has ruined their purpose, for these are tools of investigation.
+
+** Conclusions and Practicality
+Exploring and answering a question in this dichotomy leads to completely different conclusions, and practical consequences. Two examples that were used to demonstrate the difference:  Phenomenon of Lightning Strikes, and the existence of the Rich and Poor divide. In Idealism, traditionally, lightning was a sign of (a) God's wrath. With this helplessness before the idealist interpretation, we cannot do anything but watch as a God does what they please. This /conclusion/ of helplessness and the /consequence/ of doing nothing is the result of prescribing to an Idealist explanation. While the material explains it away through natural, scientific phenomenon. Allowing us the understanding of what it is and where lightning may strike based on physical conditions. Giving us the tools for taking precautions by installing lightning rods and preventing danger.
+
+Same is true for the rich-poor divide, earlier Idealist explanations would retort to something divine, God made them so. Or take karma, your physical actions causing divine retribution in the next life, and your present being the fault of your past self that you have no awareness of. While modern explanations lean towards this abstract nature of human characteristics, a man with the skills to manage his goods and resource will /"husband"/ riches, while the other remains in poverty due to his own fault. This idealist analysis of a person's condition is solely based on something that has no physical existence or holds little implication in the practical. Material analysis will tell you to look at the economoic and social conditions, the means of production to accumulate are owned by few, and those who work under them to produce commodities and perform labor often do not get the actual worth of their labor. The owner of the means reaps the profit of the labor. (This surplus value created by labor from which the capitalist owner can profit is another schtick of capitalism which I do not completely undestand but I am writing this here to remind myself to read /Capital/ in the future.)
+
+From these two examples, the first conclusion to draw about Idealist and Materialist analysis is: Idealism inherently appears to maintain the status-quo, leaving us weak in our understanding. While Materialist method goes to empower knowledge in the truer sense and advance understanding of the way things are.
+
+Materialism is when one puts the physical before the spiritual, whereas Idealism is when the material is secondary and the mind/spirit is prior to it. Idealism leads us the believe the latter is the cause for the former, while Materialism teaches as that the spiritual exists and takes shape because of physical condition.
+
+There is this fundamental belief with Idealism that there is information we can simply never know and thus turn towards the mind, remaining docile in our pursuits and being ignorant of material reality. There is scientific information like not being able to get any information from a black hole's singularity[fn:1] and not being able to observe smaller sizes than the Planck Length[fn:2]. These scientific pursuits have only progressed so far because science itself is material, if we, as humans prescribe with idealist thought, these advances in Science and Materialism will never have happened. Our current technology limits us, so we shall keep furthering our understanding with Material Tools until we have our answers. Simply going for the Idealist view because we cannot know things is lazy. It is ignorant and burying one's head in the sand.
+
+** Idealism and its forms
+Quoting Lenin, "Idealism is Clericalism", Maurice says that Idealism is a continuation of religious way of thinking and asking questions. Its root, also comes from religion. Idealist thought of analyzing phenomenon, as exampled before, is essentially traced back to human helplessness and weakness in front of natural forces. Therefore personification by the human mind, and leading to creation of these ideas. And when humans moved into society, with heirarchies, this alien concept was also brought along to explain away the society's strucutre. Kings above the people, Gods above mankind and reality, and so on. 
+
+Idealism and its various forms have always prescribed to almost a dualistic nature of everything. A spiritual world outside our own which contains the purest and truest essence of concepts. Material reality is a reflection of that world. Be it /"subjective idealism"/, /"dualism"/, or /"realism"/, they all suffer from this. Subjective Idealism is the purest, denying material reality and only basing it off on experience of the mind, reality not existing outside of self. While dualism is simply assigning supremacy to the external world of concepts that does not interfere with sphere of influence of natural forces but does interact with the human mind and society. Realism is the acceptance of material reality so it appears materialist at first, but the traditional catholic philosophy still continues that it God's rule that governs it.
+
+These /ideas/ further alienate us from our material reality, and ourselves, placing us in the hands of this /other/, often morally superior reality and beings.
+
+** Key Points of Idealism and Materialism
+This section is the summarization of Idealistic and Materialistic teachings, I will keep it mostly literal as there is no value in summarizing a summary.
+
+#+ATTR_LATEX: :environment longtable :align |p{0.45\textwidth}|p{0.45\textwidth}|
+| *Idealism* | *Materialism* |
+| 1. Idealism asserts that the material world is dependent on the spiritual. | 1. Materialism teaches that the world is material by nature. Everything that arises has material causes and develops in accordance with natural laws. |
+| 2. Idealism asserts that spirit/mind/ideas exist outside the matter. (Subjective idealism denies matter entirely) | 2. Materialism teaches that matter is objective, and reality exists outside the mind and senses. The mind and everything that takes place in it, is a product of material processes |
+| 3. Idealism asserts that there is a separate mysterious realm that is unknowable and imperceptible through human tools and senses. |  3. Materialism teaches that the world and its laws are knowable, while we may not understand the physical world fully, there is no Separate realm that is simply unknowable. |
+
+** With Socialism
+This part in the chapter seems to be related to how many socialists prescribe to the view that simply changing the mind of the capitalist class (changing the idea of fairness and such) will somehow lead to social change, while completely ignoring that the reason the bourgeoise exist in the first place is that because they continue to ensure control over the means which cement their position itself. Workers having to realize that they do not need to soul-searching for work or /"Moral Rearmament"/ instead of asking for better conditions. Seizing the means of production is the easiest way to make it better for everyone.
+
+Idealism is a reactionary ideology that reinforces the views of the oppressing/dominating class in a society. They have a vested interest in keeping people believing that there is this hole that we fundamentally cannot know and thus it is better to leave things be. Materialism teaches us to in the working class, and the people. Learning our reality and chaning it instead of remaining still.
+
+
+[fn:1]: https://en.wikipedia.org/wiki/Black_hole_information_paradox
+
+[fn:2]: What ACTUALLY happens at the Plank Length? -- https://www.youtube.com/watch?v=f3jhbui5Cqs 

@@ -1,10 +1,6 @@
 ---
-title: "Thought Emporium"
-draft: false
-toc: true
-tocBorder: true
+Title: Thought Emporium
+Draft: false
 ---
 
-## Dialectical Materialism
-
-1. Chapter 1 Thoughts -- [pdf](./maurice/ch01-thoughts.pdf)
+1. [Dialectical Materialism--An Introduction by Maurice Cornforth](./dialectical-materialism-maurice/)

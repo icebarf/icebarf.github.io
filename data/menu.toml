@@ -27,8 +27,11 @@ title = "self"
   show_more_url = "self"
 
 [[entries]]
-title = "emporium"
-url = "emporium/"
+title = "Thought Emporium"
+url="emporium/"
+  [[entries.entries]]
+  title = "On Dialectical Materialism"
+  url = "emporium/dialectical-materialism-maurice"
 
 [[entries]]
 title = "japanese"

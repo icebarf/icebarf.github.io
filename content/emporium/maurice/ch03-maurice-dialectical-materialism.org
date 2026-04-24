@@ -1,0 +1,49 @@
+#+TITLE: Mechanistic Materialism
+#+AUTHOR: Ice
+#+DATE: 2026-04-22T20:14:54+05:30
+#+DRAFT: false
+
+Materialism, specifically Mechanistic Materialism, treats all natural phenomena as a /machine/, comprised of individual moving parts called /atoms/, all working in tandem to represent the observed material reality. Idealist thought often sought divine nature for being the permanent cause of change introduced in material reality.
+Materialism always traces change back to material reality and no supernatural belief. To represent change in the material world, this indivisble and unchanging unit best fit the representation of the material itself, and thus change occurred from the interaction of and between /atoms/. Atoms gave this permanence to mechanistic ideology, which idealists have traditionally always sought as well to cement their position in society.
+
+Mechanistic Materialism arose from Bourgeoisie thinkers in direct opposition to Feudal Idealism. Earlier in history, they were not as much concerned with how these atomic interactions occured much as in opposition to divine machinations. But in the 16-18th centuries, much scientific work in the nature was done which lead to advances in Materialist thought itself. Bourgeois scientists and philosophers directly countered Idealist thoughts through material analysis and proof.
+
+This Bourgeois v. Feudal ideological divide is something I failed to understand. My initial chain of thinking was Bourgeois and Feudal Hierarchies are both exploitative and thus should have been, ideologically in the same camp. But this revolutionary "scientific" thought that uprooted feudal structures from society, it must have been conceived for a reason, that the bourgeoisie held opposition to a framework of exploitation through which they amassed wealth already. Is it a natural evolution? I must investigate
+
+To investigate, I simply looked up the topic discussed in the chapter itself however it did not provide me with any different thoughts. Then I realized I apply what I learned in previous chapters, analyzing the material conditions in contrast to the Feudal Idealists. What the word Bourgeoisie means now, and what it meant in the late middle ages is very different. On wikipedia[fn:1], they are described as somewhere between being peasantry and aristocracy. So a modern analogy to draw would probably be the Upper Middle Class of modern times. Regardless, the material conditions make sense as to why they were ideologically opposed. The material facts tell us that they themselves were below the class, or rather, out of the exploitative class that benefitted the most. They would later come to own the means of production and become the exploitative class themselves.
+
+** Why is Mechanistic Materialism a Bourgeois ideology?
+The Bourgeoisie thought was in direct opposition to the position held by the Feudal Idealists, both ideologically and materially. It developed in opposition to the supernatural and interdependent systematic structures prescribed by the church, which also applied to nature. Materialists proceeded to deny this and proved them wrong through material evidence. It is clear to us that they came out on top by adopting mechanistic materialism.
+
+Idealist thoughts about nature, the co-dependence and position of each being and thing enabled their exploitation of the serfs (/peasants/). The same ideas were applied to nature, with God being on top, from which everything originates and depends upon.
+Philosophers (and scientists) of the time completely destroyed these ideas. They treated nature as a system of atoms interacting with each other, material processes causing physical phenomenon. Unlike the ancient times, where Epicurus wasn't concerned with how the material world worked, Newton and others of the time, proceeded to give formal laws that governed the solar system and the interactions of bodies in it. Similarly, Idealist social structures were also destroyed and relinquished through Mechanistic attitudes. Treating a human being as an isolated independent indivisible unit that was not dependent on the liege lord or the person above or below, the ideas faded away from establishment/power structure. 
+
+From this, we can conclude that the bourgeoisie ideology reflects not only the world outlook but also social outlook of the bourgeoisie, treating man as an independent unit that prioritizing self-interest as the former. This was their strength, in separating away man from the feudal structures of society and nature. It limited humans to themselves. This was the social outlook of the Bourgeoisie.
+
+It is reasonable to say that this portrayal is similarly exploitative (and alienating) much like the Feudal Idealist structures that they had uprooted. Mechanistic Materialism reflects the social structures of the bourgeoisie, and bourgeoisie only. And thus, Mechanistic Materialism is an ideology of the Bourgeoisie.
+
+(I felt these were the primary two things that were thought provoking and required me to reformate what I had read in the book and then put it here again. Afterwards, I will mostly deal with conclusions and thoughts drawn from this chapter. There is an entire section on how this early materialist thought and philosopher lead to the advances in sciences and benefitted and such but bleehhh im not gonna summarize that part meow :3).
+
+** Reductive Nature of Mechanistic Materialists
+Paraphrasing Engels' quote and Maurice, Sciences advanced with, and technology. This physical development was primarily in industry and machinery, the materialist ideology brought forth these advances after all. However, these advances were all primarily mechanical, and thus, this limitation was also backported into the materialist thought of /mechanicity/. The bourgeoisie treated everything as a system/machine comprised of interactions between atomic units, including the world itself, a machine of interaction between its atoms.
+
+This was a limitation because it viewed change not arising from opposition/contradiction to something but rather simple mechanical changes. It also meant that development in the sense of change and 'new-ness' is impossible, after all once a machine is made and started up, it does what it was made to, nothing more nothing less. It also leads to treating human beings as machines that need to be well maintained, or maintained up to the point that the machine is functional and does its intended function.
+
+Limitations (from the book):
+1. It could not sustain the materialist standpoint consistently and completely.
+   (References to supreme beings explaining the origin of reality and such.)
+2. It sees change everywhere but reduces them to repetitive mechanical interactions.
+3. It does not explain social development. (Human interactions are mechanized.)
+
+** Utopian Socialism
+This ideology was used by the thinkers of that time to put forward the idea of an Ideal Society, socialists predecessors to /Marx/, saw ideal society arising from an idea of fairness and creating a machine that gave its parts Rights, Properties, and Attributes.
+They saw this society not arising as a contradiction to the exploitative nature of capitalism, and capitalism itself, but rather a necessitation from wit and thought. It was not a working class struggle to them.
+
+To summarize the end of the chapter, utopian socialists/mechanistic materialists viewed men as products of circumstance and environment, and only better/different circumstances could produce better men. Paraphrasing the Marx quote, the key takeaway is that men are the ones that change circumstances for themselves and others, which is how they grow.
+
+If we take this doctrine literally, the action is othered from the atom and the machine itself. Changed Men are produced by others and not their own actions leading to change. Mechanistic Materialism fails to describe new change in humanity and society, failing at describing social structures.
+
+/"Therefore while it was a progressive and revolutionary doctrine in its time, it could not serve to guide the struggle of the working class in striving to change society."/[fn:2]
+
+[fn:1] https://en.wikipedia.org/wiki/Bourgeoisie
+[fn:2] Dialectical Materialsm (vol 1,2,3 combined) Maurice Cornforth, Chapter 3, page 39.

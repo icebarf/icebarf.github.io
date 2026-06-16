@@ -46,10 +46,8 @@ in a quite portable setup.
 *
 
 [main]
-# Maps capslock to escape when pressed and control when held.
+# Switch capslock and escape
 capslock = esc
-
-# Remaps the escape key to capslock
 esc = capslock
 
 # Japanese stuff

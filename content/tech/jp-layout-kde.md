@@ -20,6 +20,8 @@ This post will only highlight the things you need to place or setup.
 - `Shift + Escape` -- Katakana key emulation for Katakana Input
 - ``Alt + ` `` -- I use this for emulating Hankaku/Zenkaku and Hiragana/Katakana keys. Currently, mapped to the former.
 
+> The `Escape` key here mentioned is physically the Capslock key
+
 ## Installing mozc
 
 I use [merge-ut-dictionaries](https://github.com/utuhiro78/merge-ut-dictionaries) which just builds `mozc`, and then later `fcitx5-mozc`.

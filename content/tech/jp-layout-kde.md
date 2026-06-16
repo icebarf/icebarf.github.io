@@ -28,7 +28,7 @@ You can also install `ibus-mozc` since it provides a `PKGBUILD` for that.
 1. `$ git clone --depth 1 https://github.com/utuhiro78/merge-ut-dictionaries.git`
 2. `$ cd merge-ut-dictionaries/src/merge`
 3. Edit `make.sh`, I enable *all* of the dictionaries, as well generating the latest one as well. (Uncommenting)
-4. `##pacman -S python-jaconv`
+4. `# pacman -S python-jaconv`
 5. `$ sh make.sh`
 6. `$ cd ../../PKGBUILD && cp ../src/merge/mozcdic-ut.txt ./`
 7. `$ python3 generate-mozc-archive.py` (You may need to edit version number in this and PKGBUILD if it cannot find the release)

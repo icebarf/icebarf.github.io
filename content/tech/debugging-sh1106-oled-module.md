@@ -193,6 +193,6 @@ Here's a picture of my multi-meter and my final setup hehe :3
 
 [^1]: SH1106 Datasheet -- https://www.pololu.com/file/0J1813/SH1106.pdf
 
-[^2]: The datasheet dictates that the reset line goes low during initilaization and then stays high during operation. It's reasoning for testing a hardwire to
+[^2]: The datasheet dictates that the reset line goes low during initilaization and then stays high during operation. Its reasoning for testing a hardwire to
 3.3V --- `Many 7-pin SH1106 SPI display modules require a massive burst of current on the physical RES (Reset) pin the exact millisecond the pin transitions from Low to High to initialize the display logic. If the display's internal reset circuit has a faulty component, driving it with a standard Pico GPIO pin will overload that specific pin's current limit, pulling the entire RP2040 chip down to 2.6V.` ---
 I'm not well learned in electronics and I only know the basics, so I'm just leaving it here.
